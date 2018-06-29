@@ -34,6 +34,99 @@ class Product(models.Model):
         null=True,
     )
 
-
     def __str__(self):
         return self.product_id
+
+
+class Client(models.Model):
+    first_name = models.CharField(
+        'First Name',
+        max_length=128,
+    )
+
+    last_name = models.CharField(
+        'Last Name',
+        max_length=128,
+    )
+
+    email_address = models.EmailField(
+        'Email Address',
+    )
+
+    def __str__(self):
+        # return '%s - %s' % (self.account_number, self.last_name)
+        return self.email_address
+
+
+class Order(models.Model):
+
+    client = models.ForeignKey(
+        Client,
+        on_delete=models.SET_NULL,
+        null=True
+    )
+
+    po_number = models.CharField(
+        max_length=64,
+        blank=False,
+        unique=True,
+    )
+
+    ORDER_STATUS_CHOICES = (
+        ('Open', 'Open'),
+        ('Done', 'Done'),
+    )
+
+    order_status = models.CharField(
+        max_length=24,
+        choices=ORDER_STATUS_CHOICES,
+        default='Open',
+    )
+
+    create_date = models.DateTimeField(
+        auto_now_add=True,
+        blank=True,
+        null=True,
+    )
+
+    modify_date = models.DateTimeField(
+        auto_now=True,
+        blank=True,
+        null=True,
+    )
+
+    def __str__(self):
+        return '%s - %s' % (self.po_number, self.client.email_address)
+
+
+class OrderLine(models.Model):
+    # Each line of the order, which will consist of product, quantity, etc. One product per OrderItem.
+    order = models.ForeignKey(
+        Order,
+        on_delete=models.SET_NULL,
+        null=True,
+        related_name='order_items',
+    )
+
+    item = models.ForeignKey(
+        Product,
+        on_delete=models.SET_NULL,
+        null=True
+    )
+
+    quantity = models.IntegerField()
+
+    @property
+    def stock(self):
+        return self.item.stock
+
+    @property
+    def subtotal(self):
+        return self.item.sale_price * self.quantity
+
+    def __str__(self):
+        return self.order.po_number
+
+
+
+
