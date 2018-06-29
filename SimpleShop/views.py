@@ -8,6 +8,10 @@ def index(request):
     return render(request, 'index.html')
 
 
+def contact_view(request):
+    return render(request, 'contact.html')
+
+
 def client_list_view(request):
     return render(request, 'clientList.html')
 
@@ -22,3 +26,8 @@ def client_detail_view(request):
 
 def product_detail_view(request):
     return render(request, 'productDetail.html')
+
+
+def error_404(request):
+    context = {}
+    return render(request, 'error_404.html', context)

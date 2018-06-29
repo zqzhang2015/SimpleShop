@@ -10,10 +10,12 @@
             <meta name="viewport" content="width=device-width, initial-scale=1">
         {% endblock meta %}
 
-        <title>SimpleShop | {% block title %}{% endblock %}</title>
+        <title>SimpleShop |{% block title %}{% endblock %}</title>
 
         {% block stylesheets %}
-            <link href="/static/css/style.css" rel="stylesheet">
+            {% load static %}
+            <link href="{% static 'css/style.css' %}" rel="stylesheet">
+            <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         {% endblock stylesheets %}
 
     {% endblock head %}
@@ -21,23 +23,25 @@
 
 <body>
 {% block body %}
+            {% block top_navigation %}
+                {% include "top_navigation.html" %}
+            {% endblock top_navigation %}
+
+
     <div class="container body">
         <div class="main_container">
 
-            {% block sidebar %}
-            {% endblock sidebar %}
-
-            {% block top_navigation %}
-            {% endblock top_navigation %}
 
             {% block content %}
-                <!-- {{ content }} -->
             {% endblock content %}
 
-            {% block footer %}
-            {% endblock footer %}
+
         </div>
     </div>
+
+    {% block footer %}
+        {%  include "footer.html" %}
+    {% endblock footer %}
 
     {% block javascripts %}
     {% endblock javascripts %}

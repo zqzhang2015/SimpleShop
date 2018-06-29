@@ -1,7 +1,5 @@
 from django.db import models
 
-# Create your models here.
-
 
 class Product(models.Model):
     product_id = models.CharField(
@@ -115,10 +113,6 @@ class OrderLine(models.Model):
     )
 
     quantity = models.IntegerField()
-
-    @property
-    def stock(self):
-        return self.item.stock
 
     @property
     def subtotal(self):

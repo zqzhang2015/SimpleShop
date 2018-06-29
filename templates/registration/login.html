@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Login</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+    <!-- Custom styles for this template -->
+    {% load static %}
+    <link href="{% static 'css/signin.css' %}" rel="stylesheet">
+
+</head>
+
+<body class="text-center">
+<div class="container">
+    {% if form.errors %}
+        <p>Your username and password didn't match. Please try again.</p>
+    {% endif %}
+
+    {% if next %}
+        {% if user.is_authenticated %}
+            <p>Your account doesn't have access to this page. To proceed,
+                please login with an account that has access.</p>
+        {% else %}
+            <p>Please login to see this page.</p>
+        {% endif %}
+    {% endif %}
+
+    <form method="post" action="{% url 'login' %}" class="form-signin">
+        {% csrf_token %}
+
+        <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+        <div>
+            <label for="{{ form.username.id_for_label }}" class="sr-only">Username</label>
+            <input type="text" id="{{ form.username.id_for_label }}" class="form-control" placeholder="Username" name="{{ form.username.html_name }}" value="{{ form.username.value|default_if_none:''}}" required autofocus>
+            <label for="{{ form.password.id_for_label }}" class="sr-only">Password</label>
+            <input type="password" id="{{ form.password.id_for_label }}" class="form-control" placeholder="Password" name="{{ form.password.html_name }}" value="{{ form.username.value|default_if_none:'' }}">
+        </div>
+
+        <div>
+            <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            <input type="hidden" name="next" value="{{ next }}" />
+        </div>
+    </form>
+
+    {# Assumes you setup the password_reset view in your URLconf #}
+    {#        <p><a href="{% url 'password_reset' %}">Lost password?</a></p>#}
+
+
+</div>
+</body>
+</html>

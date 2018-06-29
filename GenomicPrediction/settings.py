@@ -25,7 +25,7 @@ SECRET_KEY = 'y1&h&rarxr(w&+7rdq5^3uvwru_-4$7g4tqfrefkp218(jbu(8'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -48,6 +48,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'GenomicPrediction.middleware.LoginRequiredMiddleware',
 ]
 
 ROOT_URLCONF = 'GenomicPrediction.urls'
@@ -137,3 +138,5 @@ LOGIN_EXEMPT_URLS = (
  r'^login/',
  r'^admin/',
 )
+
+LOGOUT_REDIRECT_URL = '/'
