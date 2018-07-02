@@ -3,5 +3,52 @@
 {% block title %} Products {% endblock title %}
 
 {% block content %}
-<h2>List of Products</h2>
+
+    <div id="productlist">
+
+    <a class="btn btn-success" href="{% url 'product-create'%}" role="button">Add New Product</a>
+
+        <table class="table table-sm">
+            <thead class="thead-light">
+            <tr>
+                <th scope="col">Product ID</th>
+                <th scope="col">Name</th>
+                <th scope="col">Price ($)</th>
+                <th scope="col">Stock</th>
+                <th scope="col" style="width: 250px">Action</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for product in products %}
+                <tr>
+                    <td>{{ product.product_id }}</td>
+                    <td>{{ product.name }}</td>
+                    <td>{{ product.sale_price }}</td>
+                    <td>{{ product.stock }}</td>
+                    <td>
+                        <a class="btn btn-outline-info" href="{% url 'product-detail' product %}" role="button">Details</a>
+                        <a class="btn btn-outline-warning" href="{% url 'product-update' product %}" role="button">Edit</a>
+                        <a class="btn btn-outline-danger" href="{% url 'product-delete' product %}" role="button">Delete</a>
+
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+
+
+
+
+    <script>
+        new Vue({
+            delimiters: ['[[', ']]'],
+            el: '#productlist',
+            data: {
+                title: 'List of Products'
+                products: ''
+            }
+        })
+    </script>
 {% endblock content %}

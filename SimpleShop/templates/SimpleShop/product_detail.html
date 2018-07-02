@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <h1>{{ object.product_id }}</h1>
+    <p>{{ object.name }}</p>
+    <p>Price: {{ object.sale_price }}</p>
+    <p>Stock: {{ object.stock }}</p>
+    <p>Date Created: {{ object.create_date }}</p>
+    <p>Date Modified: {{ object.modify_date }}</p>
+
+    <a href="{% url 'product-list' %}">Back to list</a>
+    <a class="btn btn-outline-warning" href="{% url 'product-update' product %}" role="button">Edit</a>
+    <a class="btn btn-outline-danger" href="{% url 'product-delete' product %}" role="button">Delete</a>
+
+
+{% endblock %}

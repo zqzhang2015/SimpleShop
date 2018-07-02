@@ -3,5 +3,38 @@
 {% block title %} Clients {% endblock title %}
 
 {% block content %}
-<h2>List of Clients</h2>
+
+    <div id="clientlist">
+
+        <a class="btn btn-success" href="{% url 'client-create'%}" role="button">Add New Client</a>
+
+        <table class="table table-sm">
+            <thead class="thead-light">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">First Name</th>
+                <th scope="col">Last Name</th>
+                <th scope="col">Email</th>
+                <th scope="col" style="width: 250px">Action</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for client in clients %}
+                <tr>
+                    <td>{{ client.id }}</td>
+                    <td>{{ client.first_name }}</td>
+                    <td>{{ client.last_name }}</td>
+                    <td>{{ client.email_address }}</td>
+                    <td>
+                        <a class="btn btn-outline-info" href="{% url 'client-detail' client.id %}" role="button">Details</a>
+                        <a class="btn btn-outline-warning" href="{% url 'client-update' client.id %}" role="button">Edit</a>
+                        <a class="btn btn-outline-danger" href="{% url 'client-delete' client.id %}" role="button">Delete</a>
+
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
 {% endblock content %}

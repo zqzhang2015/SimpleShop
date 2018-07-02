@@ -1,4 +1,5 @@
 from django.db import models
+from django.urls import reverse
 
 
 class Product(models.Model):
@@ -54,6 +55,9 @@ class Client(models.Model):
     def __str__(self):
         # return '%s - %s' % (self.account_number, self.last_name)
         return self.email_address
+
+    # def get_absolute_url(self):
+    #     return reverse('SimpleShop.views.', args=[str(self.id)])
 
 
 class Order(models.Model):
