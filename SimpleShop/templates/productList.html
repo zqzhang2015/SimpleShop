@@ -3,13 +3,16 @@
 {% block title %} Products {% endblock title %}
 
 {% block content %}
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Products</h1>
+                <p class="lead">View. Create. Edit. Delete.</p>
+            </div>
+        </div>
 
-    <div id="productlist">
-
-    <a class="btn btn-success" href="{% url 'product-create'%}" role="button">Add New Product</a>
-
-        <table class="table table-sm">
-            <thead class="thead-light">
+        <a class="link lead" href="{% url 'product-create'%}" role="button">[+] Add New Product</a>
+        <table class="table table-striped">
+            <thead class="thead-dark">
             <tr>
                 <th scope="col">Product ID</th>
                 <th scope="col">Name</th>
@@ -35,20 +38,6 @@
             {% endfor %}
             </tbody>
         </table>
-    </div>
+        <a class="link lead" href="{% url 'product-create'%}" role="button">[+] Add New Product</a>
 
-
-
-
-
-    <script>
-        new Vue({
-            delimiters: ['[[', ']]'],
-            el: '#productlist',
-            data: {
-                title: 'List of Products'
-                products: ''
-            }
-        })
-    </script>
 {% endblock content %}

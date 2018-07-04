@@ -8,6 +8,7 @@ urlpatterns = [
     path('clients', views.client_list_view, name='client-list'),
     path('products', views.product_list_view, name='product-list'),
     path('contact', views.contact_view, name='contact'),
+    path('orders', views.orders_view, name='order-list'),
     path('', include('django.contrib.auth.urls')),
 ]
 
@@ -25,4 +26,10 @@ urlpatterns += [
     path('products/<slug:pk>/update/', views.ProductUpdate.as_view(), name='product-update'),
     path('products/<slug:pk>/delete/', views.ProductDelete.as_view(), name='product-delete'),
     path('products/<slug:pk>', views.ProductDetail.as_view(), name='product-detail'),
+]
+
+urlpatterns += [
+    path('orders/create/', views.create_order, name='order-create'),
+    path('orders/<int:pk>/update/', views.edit_order, name='order-update'),
+    path('orders/<int:pk>/delete/', views.OrderDelete.as_view(), name='order-delete'),
 ]

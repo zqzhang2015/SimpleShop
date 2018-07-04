@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<form method="post">
+    {% csrf_token %}
+    <p>Are you sure you want to delete "{{ object.po_number }}"?</p>
+    <button id="submit" name="submit" class="btn btn-primary" value="1">Confirm</button>
+    <a href="{% url 'order-list' %}" id="cancel" name="cancel" class="btn btn-secondary">Cancel</a>
+</form>
+
+{% endblock %}

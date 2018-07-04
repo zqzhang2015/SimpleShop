@@ -142,3 +142,10 @@ LOGIN_EXEMPT_URLS = (
 )
 
 LOGOUT_REDIRECT_URL = '/'
+
+
+EMAIL_HOST = 'smtp.sendgrid.net'
+EMAIL_HOST_USER = 'qiaoweitang'
+EMAIL_HOST_PASSWORD = 'visasept17'
+EMAIL_PORT = 587
+EMAIL_USE_TLS = True

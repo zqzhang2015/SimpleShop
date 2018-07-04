@@ -1,0 +1,43 @@
+{%  extends "base.html" %}
+
+{% block title %} Orders {% endblock title %}
+
+{% block content %}
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Orders</h1>
+                <p class="lead">View. Create. Edit. Delete.</p>
+            </div>
+        </div>
+
+        <a class="link lead" href="{% url 'order-create'%}" role="button">[+] Add New Order</a>
+        <table class="table table-striped">
+            <thead class="thead-dark">
+            <tr>
+                <th scope="col">PO Number</th>
+                <th scope="col">Client</th>
+                <th scope="col">Status</th>
+                <th scope="col">Last Modified</th>
+                <th scope="col" style="width: 250px">Action</th>
+            </tr>
+            </thead>
+            <tbody>
+            {% for order in orders %}
+                <tr>
+                    <td>{{ order.po_number }}</td>
+                    <td>{{ order.client }}</td>
+                    <td>{{ order.order_status }}</td>
+                    <td>{{ order.modify_date }}</td>
+                    <td>
+{#                        <a class="btn btn-outline-info" href="{% url 'client-detail' client.id %}" role="button">Details</a>#}
+                        <a class="btn btn-outline-warning" href="{% url 'order-update' order.id %}" role="button">Edit</a>
+                        <a class="btn btn-outline-danger" href="{% url 'order-delete' order.id %}" role="button">Delete</a>
+
+                    </td>
+                </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+        <a class="link lead" href="{% url 'order-create'%}" role="button">[+] Add New Order</a>
+
+{% endblock content %}

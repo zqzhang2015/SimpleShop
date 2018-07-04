@@ -1,5 +1,4 @@
 from django.db import models
-from django.urls import reverse
 
 
 class Product(models.Model):
@@ -98,7 +97,7 @@ class Order(models.Model):
     )
 
     def __str__(self):
-        return '%s - %s' % (self.po_number, self.client.email_address)
+        return self.po_number
 
 
 class OrderLine(models.Model):
@@ -123,8 +122,17 @@ class OrderLine(models.Model):
         return self.item.sale_price * self.quantity
 
     def __str__(self):
-        return self.order.po_number
+        return '{} - {}'.format(self.order.po_number, self.id)
 
 
+class ContactMessage(models.Model):
 
+    receiver_email = models.ForeignKey(
+        Client,
+        on_delete=models.SET_NULL,
+        null=True,
+    )
 
+    text_body = models.TextField(
+        max_length=1000,
+    )

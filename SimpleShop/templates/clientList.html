@@ -3,13 +3,16 @@
 {% block title %} Clients {% endblock title %}
 
 {% block content %}
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Clients</h1>
+                <p class="lead">View. Create. Edit. Delete.</p>
+            </div>
+        </div>
 
-    <div id="clientlist">
-
-        <a class="btn btn-success" href="{% url 'client-create'%}" role="button">Add New Client</a>
-
-        <table class="table table-sm">
-            <thead class="thead-light">
+        <a class="link lead" href="{% url 'client-create'%}" role="button">[+] Add New Client</a>
+        <table class="table table-striped">
+            <thead class="thead-dark">
             <tr>
                 <th scope="col">#</th>
                 <th scope="col">First Name</th>
@@ -35,6 +38,6 @@
             {% endfor %}
             </tbody>
         </table>
-    </div>
+        <a class="link lead" href="{% url 'client-create'%}" role="button">[+] Add New Client</a>
 
 {% endblock content %}

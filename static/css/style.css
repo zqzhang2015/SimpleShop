@@ -6,3 +6,26 @@
     line-height: 60px;
     background-color: #f5f5f5;
 }
+
+.vpad {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.jumbotron {
+    margin-bottom: 1rem;
+}
+
+.body a {
+    text-decoration: none;
+}
+
+.link {
+    padding: 0.3rem;
+    margin-bottom: 1rem;
+}
+
+.table {
+    margin-top: 1rem;
+}
