@@ -37,5 +37,5 @@ OrderLineInlineFormSet = inlineformset_factory(
         'item',
         'quantity',
     ),
-    extra=3,
+    extra=1,
 )

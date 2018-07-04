@@ -4,10 +4,15 @@
 
     <form action="{% url 'order-update' order_id %}" method="post">
         {% csrf_token %}
-        {{ order_form.as_p }}
-        {{ formset.as_p }}
-        <input type="submit" value="submit">
-        <a href="{% url 'order-list' %}">Back</a>
+        <div>
+            {{ order_form.as_p }}
+        </div>
+        <div>
+            {{ formset.as_ul }}
+        </div>
+
+        <input type="submit" value="submit" class="btn btn-success">
+        <a href="{% url 'order-list' %}" class="btn btn-secondary">Back</a>
     </form>
 {% endblock content %}
 
