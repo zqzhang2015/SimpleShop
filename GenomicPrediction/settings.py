@@ -24,7 +24,7 @@ SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
 # DEBUG = False
-DEBUG = False
+DEBUG = True
 # TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = ['*']
