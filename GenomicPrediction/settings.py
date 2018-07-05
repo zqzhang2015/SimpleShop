@@ -148,7 +148,7 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
     # '/var/www/static/',
 ]
-STATIC_ROOT = os.path.join(BASE_DIR, "..", "www", "static")
+STATIC_ROOT = os.path.join(BASE_DIR, "www", "static")
 
 
 # Redirect to home URL after login (Default redirects to /accounts/profile/)
