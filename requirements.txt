@@ -32,7 +32,7 @@ s3transfer==0.1.13
 semantic-version==2.5.0
 sendgrid==5.4.1
 six==1.11.0
--e git+https://github.com/Supervisor/supervisor
+-e git+https://github.com/Supervisor/supervisor#egg=supervisor
 tabulate==0.7.5
 termcolor==1.1.0
 vine==1.1.4
