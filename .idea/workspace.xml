@@ -4,462 +4,7 @@
     <option name="SPLITTER_PROPORTION" value="0.5393175" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee8300d4-f46d-4c66-b579-f7362b1b22ae" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/SimpleShop/tasks.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleShop/templates/client_orders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleShop/templates/preview_email.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SimpleShop/templates/report_template.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenomicPrediction/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenomicPrediction/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenomicPrediction/celery.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenomicPrediction/celery.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GenomicPrediction/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/GenomicPrediction/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleShop/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleShop/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleShop/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleShop/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleShop/templates/clientList.html" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleShop/templates/clientList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleShop/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleShop/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SimpleShop/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/SimpleShop/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore-1.10.50.dist-info/DESCRIPTION.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore-1.10.50.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore-1.10.50.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore-1.10.50.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore-1.10.50.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore-1.10.50.dist-info/metadata.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore-1.10.50.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/auth.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/client.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/credentials.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/credentials.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/acm-pca/2017-08-22/paginators-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/acm-pca/2017-08-22/service-2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/acm/2015-12-08/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/acm/2015-12-08/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/acm/2015-12-08/waiters-2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/alexaforbusiness/2017-11-09/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/alexaforbusiness/2017-11-09/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/apigateway/2015-07-09/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/apigateway/2015-07-09/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/application-autoscaling/2016-02-06/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/application-autoscaling/2016-02-06/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/appstream/2016-12-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/appstream/2016-12-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/appsync/2017-07-25/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/appsync/2017-07-25/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/athena/2017-05-18/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/athena/2017-05-18/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/autoscaling-plans/2018-01-06/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/autoscaling-plans/2018-01-06/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/autoscaling/2011-01-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/autoscaling/2011-01-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/batch/2016-08-10/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/batch/2016-08-10/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/budgets/2016-10-20/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/budgets/2016-10-20/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/ce/2017-10-25/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/ce/2017-10-25/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cloud9/2017-09-23/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cloud9/2017-09-23/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/clouddirectory/2016-05-10/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/clouddirectory/2016-05-10/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/clouddirectory/2017-01-11/paginators-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/clouddirectory/2017-01-11/service-2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cloudformation/2010-05-15/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cloudformation/2010-05-15/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cloudfront/2017-10-30/examples-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cloudfront/2017-10-30/paginators-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cloudfront/2017-10-30/service-2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cloudfront/2017-10-30/waiters-2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cloudhsmv2/2017-04-28/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cloudhsmv2/2017-04-28/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cloudsearch/2013-01-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cloudsearch/2013-01-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cloudsearchdomain/2013-01-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cloudsearchdomain/2013-01-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cloudtrail/2013-11-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cloudtrail/2013-11-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cloudwatch/2010-08-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cloudwatch/2010-08-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/codebuild/2016-10-06/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/codebuild/2016-10-06/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/codedeploy/2014-10-06/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/codedeploy/2014-10-06/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/codepipeline/2015-07-09/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/codepipeline/2015-07-09/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/codestar/2017-04-19/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/codestar/2017-04-19/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cognito-identity/2014-06-30/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cognito-identity/2014-06-30/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cognito-idp/2016-04-18/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cognito-idp/2016-04-18/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cognito-sync/2014-06-30/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cognito-sync/2014-06-30/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/comprehend/2017-11-27/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/comprehend/2017-11-27/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/config/2014-11-12/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/config/2014-11-12/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/connect/2017-08-08/paginators-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/connect/2017-08-08/service-2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cur/2017-01-06/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/cur/2017-01-06/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/datapipeline/2012-10-29/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/datapipeline/2012-10-29/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/dax/2017-04-19/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/dax/2017-04-19/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/devicefarm/2015-06-23/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/devicefarm/2015-06-23/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/directconnect/2012-10-25/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/directconnect/2012-10-25/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/discovery/2015-11-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/discovery/2015-11-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/dms/2016-01-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/dms/2016-01-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/ds/2015-04-16/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/ds/2015-04-16/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/dynamodb/2012-08-10/paginators-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/dynamodb/2012-08-10/paginators-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/dynamodb/2012-08-10/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/dynamodb/2012-08-10/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/dynamodbstreams/2012-08-10/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/dynamodbstreams/2012-08-10/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/ec2/2016-11-15/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/ec2/2016-11-15/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/ecr/2015-09-21/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/ecr/2015-09-21/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/ecs/2014-11-13/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/ecs/2014-11-13/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/efs/2015-02-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/efs/2015-02-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/eks/2017-11-01/paginators-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/eks/2017-11-01/service-2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/elasticache/2015-02-02/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/elasticache/2015-02-02/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/elasticbeanstalk/2010-12-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/elasticbeanstalk/2010-12-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/elastictranscoder/2012-09-25/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/elastictranscoder/2012-09-25/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/elb/2012-06-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/elb/2012-06-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/elbv2/2015-12-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/elbv2/2015-12-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/emr/2009-03-31/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/emr/2009-03-31/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/endpoints.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/endpoints.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/es/2015-01-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/es/2015-01-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/events/2015-10-07/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/events/2015-10-07/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/firehose/2015-08-04/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/firehose/2015-08-04/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/fms/2018-01-01/paginators-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/fms/2018-01-01/service-2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/gamelift/2015-10-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/gamelift/2015-10-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/glacier/2012-06-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/glacier/2012-06-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/glue/2017-03-31/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/glue/2017-03-31/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/greengrass/2017-06-07/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/greengrass/2017-06-07/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/guardduty/2017-11-28/paginators-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/guardduty/2017-11-28/paginators-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/guardduty/2017-11-28/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/guardduty/2017-11-28/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/health/2016-08-04/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/health/2016-08-04/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/iam/2010-05-08/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/iam/2010-05-08/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/importexport/2010-06-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/importexport/2010-06-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/inspector/2016-02-16/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/inspector/2016-02-16/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/iot-data/2015-05-28/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/iot-data/2015-05-28/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/iot-jobs-data/2017-09-29/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/iot-jobs-data/2017-09-29/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/iot/2015-05-28/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/iot/2015-05-28/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/iot1click-devices/2018-05-14/service-2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/iot1click-projects/2018-05-14/paginators-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/iot1click-projects/2018-05-14/service-2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/iotanalytics/2017-11-27/paginators-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/iotanalytics/2017-11-27/service-2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/lambda/2015-03-31/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/lambda/2015-03-31/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/lightsail/2016-11-28/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/lightsail/2016-11-28/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/logs/2014-03-28/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/logs/2014-03-28/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/machinelearning/2014-12-12/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/machinelearning/2014-12-12/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/macie/2017-12-19/paginators-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/macie/2017-12-19/service-2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/marketplace-entitlement/2017-01-11/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/marketplace-entitlement/2017-01-11/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/marketplacecommerceanalytics/2015-07-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/marketplacecommerceanalytics/2015-07-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/mediaconvert/2017-08-29/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/mediaconvert/2017-08-29/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/medialive/2017-10-14/paginators-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/medialive/2017-10-14/paginators-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/medialive/2017-10-14/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/medialive/2017-10-14/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/mediapackage/2017-10-12/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/mediapackage/2017-10-12/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/mediatailor/2018-04-23/paginators-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/mediatailor/2018-04-23/service-2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/meteringmarketplace/2016-01-14/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/meteringmarketplace/2016-01-14/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/mgh/2017-05-31/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/mgh/2017-05-31/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/mobile/2017-07-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/mobile/2017-07-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/mturk/2017-01-17/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/mturk/2017-01-17/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/neptune/2014-10-31/paginators-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/neptune/2014-10-31/service-2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/neptune/2014-10-31/waiters-2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/opsworks/2013-02-18/waiters-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/opsworks/2013-02-18/waiters-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/organizations/2016-11-28/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/organizations/2016-11-28/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/pi/2018-02-27/paginators-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/pi/2018-02-27/service-2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/pinpoint/2016-12-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/pinpoint/2016-12-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/polly/2016-06-10/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/polly/2016-06-10/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/pricing/2017-10-15/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/pricing/2017-10-15/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/rds/2014-10-31/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/rds/2014-10-31/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/redshift/2012-12-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/redshift/2012-12-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/rekognition/2016-06-27/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/rekognition/2016-06-27/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/resourcegroupstaggingapi/2017-01-26/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/resourcegroupstaggingapi/2017-01-26/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/route53/2013-04-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/route53/2013-04-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/route53domains/2014-05-15/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/route53domains/2014-05-15/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/s3/2006-03-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/s3/2006-03-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/sagemaker/2017-07-24/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/sagemaker/2017-07-24/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/sagemaker/2017-07-24/waiters-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/sagemaker/2017-07-24/waiters-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/sdb/2009-04-15/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/sdb/2009-04-15/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/secretsmanager/2017-10-17/paginators-1.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/secretsmanager/2017-10-17/service-2.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/serverlessrepo/2017-09-08/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/serverlessrepo/2017-09-08/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/servicecatalog/2015-12-10/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/servicecatalog/2015-12-10/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/servicediscovery/2017-03-14/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/servicediscovery/2017-03-14/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/ses/2010-12-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/ses/2010-12-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/shield/2016-06-02/paginators-1.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/shield/2016-06-02/paginators-1.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/shield/2016-06-02/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/shield/2016-06-02/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/sms/2016-10-24/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/sms/2016-10-24/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/snowball/2016-06-30/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/snowball/2016-06-30/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/sns/2010-03-31/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/sns/2010-03-31/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/sqs/2012-11-05/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/sqs/2012-11-05/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/ssm/2014-11-06/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/ssm/2014-11-06/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/storagegateway/2013-06-30/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/storagegateway/2013-06-30/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/sts/2011-06-15/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/sts/2011-06-15/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/support/2013-04-15/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/support/2013-04-15/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/swf/2012-01-25/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/swf/2012-01-25/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/transcribe/2017-10-26/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/transcribe/2017-10-26/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/translate/2017-07-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/translate/2017-07-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/workdocs/2016-05-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/workdocs/2016-05-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/workmail/2017-10-01/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/workmail/2017-10-01/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/workspaces/2015-04-08/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/workspaces/2015-04-08/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/xray/2016-04-12/service-2.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/data/xray/2016-04-12/service-2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/docs/bcdoc/style.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/docs/bcdoc/style.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/docs/example.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/docs/example.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/docs/method.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/docs/method.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/docs/params.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/docs/params.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/docs/shape.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/docs/shape.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/endpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/endpoint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/eventstream.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/history.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/history.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/parsers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/parsers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/response.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/response.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/signers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/signers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/stub.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/stub.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/botocore/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery-4.2.0.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery-4.2.0.dist-info/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery-4.2.0.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery-4.2.0.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery-4.2.0.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery-4.2.0.dist-info/entry_points.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery-4.2.0.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/__main__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/_state.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/amqp.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/amqp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/annotations.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/annotations.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/backends.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/backends.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/builtins.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/builtins.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/control.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/control.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/defaults.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/defaults.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/events.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/events.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/registry.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/registry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/trace.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/trace.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/apps/beat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/apps/beat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/apps/multi.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/apps/multi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/apps/worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/apps/worker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/amqp.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/amqp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/async.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/async.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/cache.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/cassandra.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/cassandra.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/consul.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/consul.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/couchbase.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/couchbase.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/couchdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/couchdb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/database/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/database/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/database/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/database/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/database/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/database/session.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/dynamodb.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/dynamodb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/elasticsearch.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/elasticsearch.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/filesystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/filesystem.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/mongodb.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/mongodb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/redis.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/redis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/riak.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/riak.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/rpc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/rpc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/beat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/beat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/amqp.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/amqp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/beat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/beat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/call.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/call.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/celery.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/celery.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/celeryd_detach.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/celeryd_detach.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/control.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/control.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/events.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/events.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/logtool.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/logtool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/migrate.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/migrate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/multi.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/multi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/purge.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/purge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/result.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/result.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/shell.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/shell.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/upgrade.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/upgrade.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/worker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bootsteps.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bootsteps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/canvas.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/canvas.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/asynpool.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/asynpool.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/eventlet.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/eventlet.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/gevent.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/gevent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/prefork.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/prefork.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/solo.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/solo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/abortable.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/abortable.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/migrate.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/migrate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/pytest.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/pytest.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/rdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/rdb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/sphinx.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/sphinx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/testing/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/testing/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/testing/manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/testing/manager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/testing/mocks.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/testing/mocks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/testing/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/testing/tasks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/testing/worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/testing/worker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/cursesmon.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/cursesmon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/dispatcher.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/dispatcher.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/dumper.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/dumper.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/event.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/event.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/receiver.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/receiver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/snapshot.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/snapshot.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/state.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/state.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/five.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/five.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/fixups/django.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/fixups/django.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/loaders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/loaders/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/loaders/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/loaders/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/loaders/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/loaders/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/loaders/default.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/loaders/default.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/local.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/platforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/platforms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/result.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/result.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/schedules.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/schedules.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/security/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/security/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/security/certificate.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/security/certificate.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/security/key.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/security/key.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/security/serialization.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/security/serialization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/security/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/security/utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/signals.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/states.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/states.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/task/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/task/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/task/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/task/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/abstract.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/abstract.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/collections.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/collections.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/debug.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/deprecated.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/deprecated.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/dispatch/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/dispatch/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/dispatch/signal.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/dispatch/signal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/dispatch/weakref_backports.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/dispatch/weakref_backports.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/encoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/encoding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/functional.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/functional.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/graph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/imports.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/imports.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/iso8601.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/iso8601.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/nodenames.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/nodenames.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/objects.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/saferepr.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/saferepr.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/serialization.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/serialization.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/sysinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/sysinfo.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/term.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/term.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/text.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/threads.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/threads.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/time.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/time.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/timer2.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/timer2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/autoscale.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/autoscale.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/components.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/components.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/agent.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/agent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/consumer.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/consumer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/control.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/control.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/events.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/events.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/gossip.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/gossip.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/heart.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/heart.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/mingle.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/mingle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/tasks.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/control.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/control.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/heartbeat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/heartbeat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/loops.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/pidbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/pidbox.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/request.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/state.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/state.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/strategy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/worker.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_celery-3.2.2-py3.6.egg-info/PKG-INFO" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_celery-3.2.2-py3.6.egg-info/SOURCES.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_celery-3.2.2-py3.6.egg-info/dependency_links.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_celery-3.2.2-py3.6.egg-info/installed-files.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_celery-3.2.2-py3.6.egg-info/not-zip-safe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_celery-3.2.2-py3.6.egg-info/requires.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django_celery-3.2.2-py3.6.egg-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/admin_utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/app.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/backends/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/backends/cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/backends/database.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/common.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/contrib/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/contrib/test_runner.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/db.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/humanize.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/loaders.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/management/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/management/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/management/commands/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/management/commands/celery.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/management/commands/celerybeat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/management/commands/celerycam.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/management/commands/celeryd.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/management/commands/celeryd_detach.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/management/commands/celeryd_multi.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/management/commands/celerymon.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/management/commands/djcelerymon.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/managers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/mon.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/monproj/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/monproj/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/picklefield.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/schedulers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/snapshot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/static/djcelery/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/templates/admin/djcelery/change_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/templates/djcelery/confirm_rate_limit.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/tests/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/tests/_compat.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/tests/req.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/tests/test_admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/tests/test_backends/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/tests/test_backends/test_cache.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/tests/test_backends/test_database.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/tests/test_commands.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/tests/test_discovery.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/tests/test_loaders.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/tests/test_models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/tests/test_schedulers.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/tests/test_snapshot.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/tests/test_views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/tests/test_worker_job.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/tests/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/transport/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/utils.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/djcelery/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu-4.2.1.dist-info/INSTALLER" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu-4.2.1.dist-info/LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu-4.2.1.dist-info/METADATA" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu-4.2.1.dist-info/RECORD" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu-4.2.1.dist-info/WHEEL" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu-4.2.1.dist-info/top_level.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/asynchronous/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/asynchronous/aws/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/asynchronous/aws/connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/asynchronous/aws/ext.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/asynchronous/aws/sqs/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/asynchronous/aws/sqs/connection.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/asynchronous/aws/sqs/ext.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/asynchronous/aws/sqs/message.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/asynchronous/aws/sqs/queue.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/asynchronous/debug.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/asynchronous/http/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/asynchronous/http/base.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/asynchronous/http/curl.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/asynchronous/hub.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/asynchronous/semaphore.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/asynchronous/timer.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/compat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/connection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/mixins.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/mixins.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/resource.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/resource.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/simple.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/SLMQ.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/SLMQ.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/SQS.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/SQS.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/librabbitmq.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/librabbitmq.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/mongodb.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/mongodb.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/pyamqp.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/pyamqp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/qpid.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/qpid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/redis.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/redis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/virtual/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/virtual/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/debug.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/encoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/encoding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/functional.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/functional.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/json.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/json.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Scripts/celery.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/celery.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/pip-selfcheck.json" beforeDir="false" afterPath="$PROJECT_DIR$/venv/pip-selfcheck.json" afterDir="false" />
-    </list>
+    <list default="true" id="ee8300d4-f46d-4c66-b579-f7362b1b22ae" name="Default" comment="" />
     <ignored path="venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -519,13 +64,22 @@
           <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/GenomicPrediction/settings.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="463">
-                  <caret line="197" column="30" selection-start-line="197" selection-start-column="30" selection-end-line="197" selection-end-column="30" />
+                <state relative-caret-position="191">
+                  <caret line="181" lean-forward="true" selection-start-line="181" selection-end-line="181" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="celery.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="02_python.config" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/.ebextensions/02_python.config">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="celery.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/GenomicPrediction/celery.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="187">
@@ -682,9 +236,9 @@
         <option value="$PROJECT_DIR$/celery.py" />
         <option value="$PROJECT_DIR$/SimpleShop/celery.py" />
         <option value="$PROJECT_DIR$/SimpleShop/tasks.py" />
-        <option value="$PROJECT_DIR$/GenomicPrediction/settings.py" />
         <option value="$PROJECT_DIR$/GenomicPrediction/celery.py" />
         <option value="$PROJECT_DIR$/SimpleShop/views.py" />
+        <option value="$PROJECT_DIR$/GenomicPrediction/settings.py" />
       </list>
     </option>
   </component>
@@ -716,6 +270,11 @@
             <path>
               <item name="GenomicPrediction" type="b2602c69:ProjectViewProjectNode" />
               <item name="GenomicPrediction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GenomicPrediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GenomicPrediction" type="462c0819:PsiDirectoryNode" />
+              <item name=".ebextensions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GenomicPrediction" type="b2602c69:ProjectViewProjectNode" />
@@ -989,7 +548,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530793754808</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Celery implementation v1">
+      <created>1530903105791</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1530903105791</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -1003,21 +569,22 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="14" sideWeight="0.4989339" weight="0.32861805" />
       <window_info anchor="bottom" id="Event Log" order="4" sideWeight="0.5026652" side_tool="true" weight="0.33079433" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49626866" weight="0.33079433" />
       <window_info anchor="bottom" id="Python Console" order="6" sideWeight="0.5597015" weight="0.24265505" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.47867805" visible="true" weight="0.25897714" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="5" sideWeight="0.52132195" side_tool="true" visible="true" weight="0.25897714" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.6886931" visible="true" weight="0.11727079" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.478145" visible="true" weight="0.25897714" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.521855" side_tool="true" visible="true" weight="0.25897714" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.6886931" visible="true" weight="0.11727079" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="1" weight="0.15458423" />
       <window_info anchor="right" id="SciView" order="0" weight="0.32995737" />
       <window_info id="Structure" order="1" sideWeight="0.3113069" side_tool="true" visible="true" weight="0.11727079" />
       <window_info id="Favorites" order="0" sideWeight="0.39332366" side_tool="true" weight="0.15618336" />
-      <window_info anchor="bottom" id="Debug" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.49946696" weight="0.39934713" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Database Console" order="15" sideWeight="0.4978678" weight="0.32861805" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
@@ -1097,7 +664,8 @@
     <MESSAGE value="changed STATIC_ROOT again" />
     <MESSAGE value="Added login info to login page" />
     <MESSAGE value="changed STATIC again" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed STATIC again" />
+    <MESSAGE value="Celery implementation v1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Celery implementation v1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1105,7 +673,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SimpleShop/templates/SimpleShop/order_form.html" />
     <entry file="file://$PROJECT_DIR$/assets/js/index.js" />
     <entry file="file://$PROJECT_DIR$/SimpleShop/templates/SimpleShop/product_form.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1232,13 +799,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
           <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.ebextensions/02_python.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
@@ -1397,13 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GenomicPrediction/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="463">
-          <caret line="197" column="30" selection-start-line="197" selection-start-column="30" selection-end-line="197" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/GenomicPrediction/celery.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -1422,6 +975,27 @@
             <element signature="e#0#45#0" expanded="true" />
             <element signature="e#1586#2324#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python36/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="668" selection-start-line="668" selection-end-line="668" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenomicPrediction/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="181" lean-forward="true" selection-start-line="181" selection-end-line="181" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ebextensions/02_python.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
