@@ -85,8 +85,8 @@
           <file leaf-file-name="01_packages.config" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/.ebextensions/01_packages.config">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+                <state relative-caret-position="85">
+                  <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -591,7 +591,21 @@
       <option name="project" value="LOCAL" />
       <updated>1530916485140</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="yum packages">
+      <created>1530916974666</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1530916974666</updated>
+    </task>
+    <task id="LOCAL-00025" summary="yum libcurl-dev">
+      <created>1530917743195</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1530917743195</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView">
@@ -612,8 +626,8 @@
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49626866" weight="0.33079433" />
       <window_info anchor="bottom" id="Python Console" order="6" sideWeight="0.5597015" weight="0.24265505" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.478145" visible="true" weight="0.25897714" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="5" sideWeight="0.521855" side_tool="true" visible="true" weight="0.25897714" />
+      <window_info active="true" anchor="bottom" id="Run" order="10" sideWeight="0.478145" visible="true" weight="0.25897714" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.521855" side_tool="true" visible="true" weight="0.25897714" />
       <window_info content_ui="combo" id="Project" order="2" sideWeight="0.6886931" visible="true" weight="0.11727079" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="1" weight="0.15458423" />
@@ -704,7 +718,9 @@
     <MESSAGE value="Celery scrip in ebextensions" />
     <MESSAGE value="Celery script try 2" />
     <MESSAGE value="Celery script try 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="Celery script try 3" />
+    <MESSAGE value="yum packages" />
+    <MESSAGE value="yum libcurl-dev" />
+    <option name="LAST_COMMIT_MESSAGE" value="yum libcurl-dev" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1039,8 +1055,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.ebextensions/01_packages.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+        <state relative-caret-position="85">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
         </state>
       </provider>
     </entry>
