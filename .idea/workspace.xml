@@ -4,10 +4,9 @@
     <option name="SPLITTER_PROPORTION" value="0.5393175" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee8300d4-f46d-4c66-b579-f7362b1b22ae" name="Default" comment="Celery scrip in ebextensions">
+    <list default="true" id="ee8300d4-f46d-4c66-b579-f7362b1b22ae" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.ebextensions/01_packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/.ebextensions/01_packages.config" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <ignored path="venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -74,15 +73,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="03_celery.config" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.ebextensions/03_celery.config">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="323">
-                  <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.elasticbeanstalk/config.yml">
               <provider selected="true" editor-type-id="text-editor">
@@ -92,32 +82,38 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="01_packages.config" pinned="false" current-in-tab="false">
+          <file leaf-file-name="01_packages.config" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/.ebextensions/01_packages.config">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+                <state relative-caret-position="102">
+                  <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
+          <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/requirements.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="629">
-                  <caret line="37" column="11" lean-forward="true" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+                <state relative-caret-position="289">
+                  <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="celery.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/GenomicPrediction/celery.py">
+          <file leaf-file-name="celery_configuration.txt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.ebextensions/files/celery_configuration.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="187">
-                  <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-                  <folding>
-                    <element signature="e#0#56#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="629">
+                  <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="02_python.config" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.ebextensions/02_python.config">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="204">
+                  <caret line="12" selection-start-line="12" selection-start-column="1" selection-end-line="17" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
@@ -130,24 +126,6 @@
                   <folding>
                     <element signature="e#0#30#0" expanded="true" />
                   </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="report_template.txt" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SimpleShop/templates/report_template.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="34">
-                  <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="19" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/SimpleShop/models.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-30">
-                  <caret line="104" column="35" selection-start-line="104" selection-start-column="35" selection-end-line="104" selection-end-column="35" />
                 </state>
               </provider>
             </entry>
@@ -219,7 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SimpleShop/admin.py" />
         <option value="$PROJECT_DIR$/SimpleShop/templates/productDetail.html" />
         <option value="$PROJECT_DIR$/SimpleShop/templates/footer.html" />
         <option value="$PROJECT_DIR$/SimpleShop/templates/clientDetail.html" />
@@ -250,7 +227,6 @@
         <option value="$PROJECT_DIR$/.elasticbeanstalk/SimpleShop-dev.env.yml" />
         <option value="$PROJECT_DIR$/environment.env" />
         <option value="$PROJECT_DIR$/images/management/commands/createsu.py" />
-        <option value="$PROJECT_DIR$/.ebextensions/02_python.config" />
         <option value="$PROJECT_DIR$/templates/registration/login.html" />
         <option value="$PROJECT_DIR$/SimpleShop/models.py" />
         <option value="$PROJECT_DIR$/SimpleShop/templates/confirm_request.html" />
@@ -269,6 +245,8 @@
         <option value="$PROJECT_DIR$/SimpleShop/views.py" />
         <option value="$PROJECT_DIR$/GenomicPrediction/settings.py" />
         <option value="$PROJECT_DIR$/.ebextensions/03_celery.config" />
+        <option value="$PROJECT_DIR$/.ebextensions/files/celery_configuration.txt" />
+        <option value="$PROJECT_DIR$/.ebextensions/02_python.config" />
         <option value="$PROJECT_DIR$/.ebextensions/01_packages.config" />
       </list>
     </option>
@@ -306,6 +284,12 @@
               <item name="GenomicPrediction" type="b2602c69:ProjectViewProjectNode" />
               <item name="GenomicPrediction" type="462c0819:PsiDirectoryNode" />
               <item name=".ebextensions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GenomicPrediction" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GenomicPrediction" type="462c0819:PsiDirectoryNode" />
+              <item name=".ebextensions" type="462c0819:PsiDirectoryNode" />
+              <item name="files" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="GenomicPrediction" type="b2602c69:ProjectViewProjectNode" />
@@ -593,7 +577,21 @@
       <option name="project" value="LOCAL" />
       <updated>1530903626124</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Celery script try 2">
+      <created>1530905027248</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1530905027248</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Celery script try 3">
+      <created>1530916485139</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1530916485140</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TodoView">
@@ -704,7 +702,9 @@
     <MESSAGE value="changed STATIC again" />
     <MESSAGE value="Celery implementation v1" />
     <MESSAGE value="Celery scrip in ebextensions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Celery scrip in ebextensions" />
+    <MESSAGE value="Celery script try 2" />
+    <MESSAGE value="Celery script try 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Celery script try 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -712,13 +712,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SimpleShop/templates/SimpleShop/product_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SimpleShop/templates/SimpleShop/client_confirm_delete.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -921,16 +914,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GenomicPrediction/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SimpleShop/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -974,16 +957,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GenomicPrediction/celery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SimpleShop/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1002,10 +975,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.ebextensions/02_python.config">
+    <entry file="file://$PROJECT_DIR$/.ebextensions/03_celery.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        <state relative-caret-position="323">
+          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1016,10 +989,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.ebextensions/03_celery.config">
+    <entry file="file://$PROJECT_DIR$/GenomicPrediction/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="16" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="34">
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ebextensions/files/celery_configuration.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenomicPrediction/celery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ebextensions/02_python.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-start-column="1" selection-end-line="17" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="16" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -1032,15 +1039,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.ebextensions/01_packages.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" column="11" lean-forward="true" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
+        <state relative-caret-position="102">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
         </state>
       </provider>
     </entry>
