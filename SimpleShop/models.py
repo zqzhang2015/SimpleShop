@@ -52,11 +52,7 @@ class Client(models.Model):
     )
 
     def __str__(self):
-        # return '%s - %s' % (self.account_number, self.last_name)
         return self.email_address
-
-    # def get_absolute_url(self):
-    #     return reverse('SimpleShop.views.', args=[str(self.id)])
 
 
 class Order(models.Model):
@@ -127,11 +123,15 @@ class OrderLine(models.Model):
 
 class ContactMessage(models.Model):
 
-    receiver_email = models.ForeignKey(
+    client_email = models.ForeignKey(
         Client,
         on_delete=models.SET_NULL,
         null=True,
     )
+
+    @property
+    def client_name(self):
+        return '{} {}'.format(self.client_email.first_name, self.client_email.last_name)
 
     text_body = models.TextField(
         max_length=1000,

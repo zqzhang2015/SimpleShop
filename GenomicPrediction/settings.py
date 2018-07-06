@@ -20,16 +20,17 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
+
 SECRET_KEY = os.environ['SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = False
-DEBUG = True
+DEBUG = False
+# DEBUG = True
 # TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = ['*']
 
-
+# os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'GenomicPrediction.settings.local')
 # Application definition
 
 INSTALLED_APPS = [
@@ -93,19 +94,31 @@ if 'RDS_DB_NAME' in os.environ:
         }
     }
 else:
+    # DATABASES = {
+    #     'default': {
+    #         'ENGINE': 'django.db.backends.mysql',
+    #         'OPTIONS': {
+    #             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+    #         },
+    #         'NAME': os.environ['DATABASE_NAME'],
+    #         'HOST': os.environ['DATABASE_HOST'],
+    #         'PORT': os.environ['DATABASE_PORT'],
+    #         'USER': os.environ['DATABASE_USER'],
+    #         'PASSWORD': os.environ['DATABASE_PASSWORD'],
+    #     }}
+
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
             'OPTIONS': {
                 'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
             },
-            'NAME': os.environ['DATABASE_NAME'],
-            'HOST': os.environ['DATABASE_HOST'],
-            'PORT': os.environ['DATABASE_PORT'],
-            'USER': os.environ['DATABASE_USER'],
-            'PASSWORD': os.environ['DATABASE_PASSWORD'],
+            'NAME': 'simpleshop',
+            'HOST': '127.0.0.1',
+            'PORT': '3306',
+            'USER': 'root',
+            'PASSWORD': 'root',
         }}
-
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
@@ -164,6 +177,26 @@ LOGOUT_REDIRECT_URL = '/'
 
 EMAIL_HOST = 'smtp.sendgrid.net'
 EMAIL_HOST_USER = os.environ['EMAIL_HOST_USER']
+
 EMAIL_HOST_PASSWORD = ['EMAIL_HOST_PASSWORD']
+
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+
+# AWS Credentials
+AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+# Celery
+
+BROKER_URL = "sqs://%s:%s@" % (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY)
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_DEFAULT_QUEUE = 'simpleshopemail'
+CELERY_RESULT_BACKEND = None # Disabling the results backend
+CELERY_IMPORTS = ['SimpleShop.tasks']
+BROKER_TRANSPORT_OPTIONS = {
+    'region': 'us-west-2',
+    'polling_interval': 20,
+}

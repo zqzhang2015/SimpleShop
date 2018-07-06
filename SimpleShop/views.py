@@ -4,10 +4,10 @@ from django.views.generic import DetailView
 from django.urls import reverse_lazy
 from .models import Client, Product, Order
 from .forms import EmailForm, OrderForm, OrderLineInlineFormSet
-
-
 from django.template.loader import get_template
-from django.core.mail import EmailMessage, send_mail
+from django.core.mail import send_mail
+from .tasks import send_email
+from django.http import HttpResponse
 
 # Create your views here.
 
@@ -22,7 +22,7 @@ def contact_view(request):
         form = form_class(data=request.POST)
 
         if form.is_valid():
-            contact_email = request.POST.get('receiver_email', '')
+            contact_email = request.POST.get('client_email', '')
             form_content = request.POST.get('text_body', '')
 
             template = get_template('contact_template.txt')
@@ -40,6 +40,54 @@ def contact_view(request):
 
             return redirect('contact')
     return render(request, 'contact.html', {'form': form_class})
+
+def preview_email(request, pk):
+    client_query = Client.objects.get(id=pk)
+    orders_query = client_query.order_set.all()
+    form_class = EmailForm(initial={
+        'recipient_email': client_query.email_address,
+        'subject': "Report for " + client_query.first_name + " " + client_query.last_name,
+    })
+    if request.method == 'POST':
+        form = EmailForm(request.POST)
+
+        if form.is_valid():
+            recipient_email = request.POST.get('recipient_email')
+            subject = request.POST.get('subject')
+
+            template = get_template('report_template.txt')
+            context = {
+                'recipient_email': recipient_email,
+                'subject': subject,
+                'client': client_query,
+                'orders': orders_query,
+            }
+            content = template.render(context)
+
+            send_email.delay(recipient_email, content)
+
+            #
+
+            #
+            # send_mail(
+            #     subject,
+            #     content,
+            #     'report@simpleshop.com',
+            #     [recipient_email, 'dangjoeltang@gmail.com']
+            # )
+            return redirect('index')
+    context = {
+        'client': client_query,
+        'orders': orders_query,
+        'form': form_class,
+    }
+    return render(request, 'preview_email.html', context)
+
+
+def client_orders_view(request, pk):
+    client = Client.objects.get(id=pk)
+    orders = client.order_set.all()
+    return render(request, 'client_orders.html', {'client': client, 'orders': orders})
 
 
 def create_order(request):
@@ -135,14 +183,6 @@ class ClientCreate(CreateView):
     model = Client
     fields = '__all__'
     success_url = reverse_lazy('client-list')
-
-
-class ClientDetail(DetailView):
-    model = Client
-
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        return context
 
 
 class ClientUpdate(UpdateView):

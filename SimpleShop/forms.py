@@ -9,11 +9,13 @@ class ClientModelForm(ModelForm):
         fields = '__all__'
 
 
-class EmailForm(forms.ModelForm):
+class EmailForm(forms.Form):
+    recipient_email = forms.EmailField(widget=forms.TextInput(attrs={'class': 'form-control'}))
+    subject = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control'}))
 
     class Meta:
         model = ContactMessage
-        fields = ('receiver_email', 'text_body',)
+        fields = '__all__'
 
 
 class OrderLineForm(forms.ModelForm):

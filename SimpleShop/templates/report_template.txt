@@ -1,0 +1,7 @@
+{% for order in orders %}
+PO Number: {{ order.po_number }}
+-------------------
+{% for orderline in order.order_items.all %}
+{{ orderline.quantity }} x {{ orderline.item }}
+{% endfor %}
+{% endfor %}
