@@ -5,6 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee8300d4-f46d-4c66-b579-f7362b1b22ae" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.ebextensions/99_celery.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ebextensions/02_python.config" beforeDir="false" afterPath="$PROJECT_DIR$/.ebextensions/02_python.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ebextensions/files/celery_configuration.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.ebextensions/files/celery_configuration.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="venv/" />
@@ -60,7 +63,7 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5150966">
+    <splitter split-orientation="horizontal" split-proportion="0.7753623">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
@@ -81,38 +84,29 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="01_packages.config" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/.ebextensions/01_packages.config">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="85">
-                  <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/requirements.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="578">
-                  <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file leaf-file-name="celery_configuration.txt" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.ebextensions/files/celery_configuration.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-194">
-                  <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+                <state relative-caret-position="187">
+                  <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="02_python.config" pinned="false" current-in-tab="false">
+          <file leaf-file-name="99_celery.config" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/.ebextensions/99_celery.config">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-200">
+                  <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="02_python.config" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/.ebextensions/02_python.config">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="51">
-                  <caret line="3" selection-start-line="3" selection-end-line="3" />
+                <state relative-caret-position="442">
+                  <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
                 </state>
               </provider>
             </entry>
@@ -196,7 +190,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/SimpleShop/templates/productDetail.html" />
         <option value="$PROJECT_DIR$/SimpleShop/templates/footer.html" />
         <option value="$PROJECT_DIR$/SimpleShop/templates/clientDetail.html" />
         <option value="$PROJECT_DIR$/SimpleShop/templates/login.html" />
@@ -243,10 +236,11 @@
         <option value="$PROJECT_DIR$/SimpleShop/views.py" />
         <option value="$PROJECT_DIR$/GenomicPrediction/settings.py" />
         <option value="$PROJECT_DIR$/.ebextensions/03_celery.config" />
-        <option value="$PROJECT_DIR$/.ebextensions/files/celery_configuration.txt" />
         <option value="$PROJECT_DIR$/.ebextensions/01_packages.config" />
-        <option value="$PROJECT_DIR$/.ebextensions/02_python.config" />
         <option value="$PROJECT_DIR$/requirements.txt" />
+        <option value="$PROJECT_DIR$/.ebextensions/files/celery_configuration.txt" />
+        <option value="$PROJECT_DIR$/.ebextensions/99_celery.config" />
+        <option value="$PROJECT_DIR$/.ebextensions/02_python.config" />
       </list>
     </option>
   </component>
@@ -639,7 +633,21 @@
       <option name="project" value="LOCAL" />
       <updated>1530920912186</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="edit in requirements.txt">
+      <created>1530921195327</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1530921195327</updated>
+    </task>
+    <task id="LOCAL-00032" summary="editted shebang in bash script">
+      <created>1530924355782</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1530924355782</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TodoView">
@@ -661,8 +669,8 @@
       <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49626866" weight="0.33079433" />
       <window_info anchor="bottom" id="Python Console" order="6" sideWeight="0.5597015" weight="0.24265505" />
       <window_info anchor="bottom" id="Run" order="10" sideWeight="0.35607675" visible="true" weight="0.25897714" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="5" sideWeight="0.6439232" side_tool="true" visible="true" weight="0.25897714" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.6886931" visible="true" weight="0.11727079" />
+      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.6439232" side_tool="true" visible="true" weight="0.25897714" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.6886931" visible="true" weight="0.11727079" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="1" weight="0.15458423" />
       <window_info anchor="right" id="SciView" order="0" weight="0.32995737" />
@@ -733,8 +741,6 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
-    <MESSAGE value="Initial Commit 2" />
-    <MESSAGE value="Setup basic model structure, templates, views and urls" />
     <MESSAGE value="Created Login functionality and some more templating components." />
     <MESSAGE value="Added list and detail views and CRUD operations for clients and products." />
     <MESSAGE value="Added all basic site functionality and styling. Still need to incorporate emailing" />
@@ -758,7 +764,9 @@
     <MESSAGE value="pip update and libcurl-devel" />
     <MESSAGE value="ordering of container commands" />
     <MESSAGE value="Github in requirements.txt" />
-    <option name="LAST_COMMIT_MESSAGE" value="Github in requirements.txt" />
+    <MESSAGE value="edit in requirements.txt" />
+    <MESSAGE value="editted shebang in bash script" />
+    <option name="LAST_COMMIT_MESSAGE" value="editted shebang in bash script" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -766,13 +774,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SimpleShop/templates/SimpleShop/client_confirm_delete.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="89" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="89" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SimpleShop/templates/top_navigation.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -1063,17 +1064,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.ebextensions/02_python.config">
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.ebextensions/files/celery_configuration.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194">
-          <caret line="37" column="58" selection-start-line="37" selection-start-column="58" selection-end-line="37" selection-end-column="58" />
+        <state relative-caret-position="384">
+          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
         </state>
       </provider>
     </entry>
@@ -1084,6 +1078,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.ebextensions/files/celery_configuration.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="33" lean-forward="true" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.ebextensions/99_celery.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-200">
+          <caret line="15" column="66" selection-start-line="15" selection-start-column="66" selection-end-line="15" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.elasticbeanstalk/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1091,10 +1099,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
+    <entry file="file://$PROJECT_DIR$/.ebextensions/02_python.config">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="47" lean-forward="true" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+        <state relative-caret-position="442">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
