@@ -5,7 +5,280 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee8300d4-f46d-4c66-b579-f7362b1b22ae" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/requirements_bak.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp-2.3.2.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp-2.3.2.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp-2.3.2.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp-2.3.2.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp-2.3.2.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp-2.3.2.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/abstract_channel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/abstract_channel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/basic_message.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/basic_message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/channel.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/channel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/five.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/five.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/method_framing.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/method_framing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/platform.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/protocol.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/protocol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/sasl.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/serialization.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/serialization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/spec.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/transport.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/transport.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/amqp/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard-3.5.0.3.dist-info/DESCRIPTION.rst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard-3.5.0.3.dist-info/INSTALLER" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard-3.5.0.3.dist-info/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard-3.5.0.3.dist-info/METADATA" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard-3.5.0.3.dist-info/RECORD" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard-3.5.0.3.dist-info/WHEEL" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard-3.5.0.3.dist-info/metadata.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard-3.5.0.3.dist-info/top_level.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/_ext.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/_ext.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/_win.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/_win.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/context.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/dummy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/dummy/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/einfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/einfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/five.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/five.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/forkserver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/heap.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/heap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/managers.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/managers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/pool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/popen_fork.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/popen_forkserver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/popen_spawn_posix.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/popen_spawn_win32.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/process.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/process.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/queues.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/queues.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/reduction.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/reduction.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/resource_sharer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/semaphore_tracker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/sharedctypes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/sharedctypes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/spawn.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/synchronize.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/synchronize.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/util.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/billiard/util.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/__main__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/__main__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/_state.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/_state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/amqp.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/amqp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/annotations.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/annotations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/backends.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/builtins.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/builtins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/control.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/control.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/defaults.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/defaults.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/events.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/registry.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/registry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/trace.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/trace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/app/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/apps/beat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/apps/beat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/apps/multi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/apps/worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/apps/worker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/amqp.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/amqp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/async.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/cache.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/cache.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/cassandra.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/cassandra.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/consul.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/couchbase.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/couchbase.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/couchdb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/database/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/database/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/database/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/database/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/database/session.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/database/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/dynamodb.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/elasticsearch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/filesystem.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/mongodb.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/mongodb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/redis.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/redis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/riak.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/rpc.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/backends/rpc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/beat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/beat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/amqp.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/amqp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/beat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/beat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/call.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/celery.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/celery.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/celeryd_detach.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/celeryd_detach.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/control.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/events.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/events.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/logtool.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/migrate.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/multi.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/multi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/purge.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/result.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/shell.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/upgrade.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/worker.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bin/worker.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bootsteps.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/bootsteps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/canvas.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/canvas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/asynpool.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/asynpool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/eventlet.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/eventlet.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/gevent.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/gevent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/prefork.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/prefork.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/solo.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/concurrency/solo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/abortable.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/abortable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/migrate.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/migrate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/pytest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/rdb.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/rdb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/sphinx.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/sphinx.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/testing/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/testing/app.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/testing/manager.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/testing/mocks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/testing/tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/contrib/testing/worker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/cursesmon.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/cursesmon.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/dispatcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/dumper.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/dumper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/event.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/receiver.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/snapshot.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/snapshot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/state.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/events/state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/five.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/five.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/fixups/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/fixups/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/fixups/django.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/fixups/django.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/loaders/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/loaders/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/loaders/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/loaders/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/loaders/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/loaders/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/loaders/default.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/loaders/default.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/local.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/local.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/platforms.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/platforms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/result.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/result.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/schedules.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/schedules.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/security/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/security/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/security/certificate.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/security/certificate.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/security/key.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/security/key.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/security/serialization.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/security/serialization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/security/utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/security/utils.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/signals.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/signals.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/states.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/states.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/task/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/task/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/task/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/task/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/abstract.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/collections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/debug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/deprecated.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/dispatch/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/dispatch/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/dispatch/signal.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/dispatch/signal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/dispatch/weakref_backports.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/encoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/encoding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/functional.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/functional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/graph.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/imports.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/imports.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/iso8601.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/iso8601.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/nodenames.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/objects.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/objects.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/saferepr.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/serialization.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/serialization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/static/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/static/celery_128.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/sysinfo.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/sysinfo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/term.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/term.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/threads.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/threads.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/time.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/timer2.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/utils/timer2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/autoscale.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/autoscale.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/components.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/components.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/agent.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/connection.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/consumer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/control.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/events.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/gossip.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/heart.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/mingle.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/consumer/tasks.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/control.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/control.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/heartbeat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/heartbeat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/loops.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/loops.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/pidbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/pidbox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/request.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/request.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/state.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/state.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/strategy.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/strategy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/celery/worker/worker.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/abstract.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/abstract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/clocks.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/clocks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/compression.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/compression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/connection.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/connection.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/five.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/five.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/message.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/message.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/messaging.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/messaging.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/mixins.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/mixins.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/pidbox.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/pidbox.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/pools.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/pools.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/resource.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/serialization.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/serialization.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/simple.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/simple.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/SLMQ.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/SLMQ.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/SQS.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/SQS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/consul.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/etcd.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/filesystem.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/filesystem.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/librabbitmq.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/librabbitmq.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/memory.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/memory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/mongodb.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/mongodb.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/pyamqp.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/pyamqp.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/pyro.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/pyro.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/qpid.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/qpid.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/redis.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/redis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/sqlalchemy/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/sqlalchemy/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/sqlalchemy/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/sqlalchemy/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/virtual/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/virtual/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/virtual/base.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/virtual/exchange.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/virtual/exchange.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/zookeeper.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/transport/zookeeper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/amq_manager.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/amq_manager.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/collections.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/compat.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/compat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/debug.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/debug.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/div.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/encoding.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/encoding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/eventio.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/eventio.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/functional.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/functional.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/imports.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/json.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/limits.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/limits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/objects.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/scheduling.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/text.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/text.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/time.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/url.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/url.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/kombu/utils/uuid.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Scripts/celery.exe" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Scripts/celery.exe" afterDir="false" />
     </list>
     <ignored path="venv/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -66,17 +339,26 @@
           <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/GenomicPrediction/settings.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="544">
+                <state relative-caret-position="164">
                   <caret line="194" column="8" selection-start-line="194" selection-start-column="8" selection-end-line="194" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="false">
+          <file leaf-file-name="requirements.txt" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/requirements.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="102">
-                  <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+                <state relative-caret-position="578">
+                  <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="requirements_bak.txt" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/requirements_bak.txt">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="578">
+                  <caret line="34" selection-start-line="34" selection-end-line="34" selection-end-column="62" />
                 </state>
               </provider>
             </entry>
@@ -102,11 +384,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="02_python.config" pinned="false" current-in-tab="true">
+          <file leaf-file-name="02_python.config" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.ebextensions/02_python.config">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="187">
-                  <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+                  <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -127,11 +409,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="celery.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="celery.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/GenomicPrediction/celery.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="221">
-                  <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
+                  <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
                   <folding>
                     <element signature="e#0#56#0" expanded="true" />
                   </folding>
@@ -139,10 +421,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+          <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/SimpleShop/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1139">
+                <state relative-caret-position="-731">
                   <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
                   <folding>
                     <element signature="e#0#45#0" expanded="true" />
@@ -331,6 +613,7 @@
       <recent name="C:\Users\joelt\PycharmProjects\GenomicPrediction\SimpleShop\templates\SimpleShop" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\joelt\PycharmProjects\GenomicPrediction" />
       <recent name="C:\Users\joelt\PycharmProjects\GenomicPrediction\SimpleShop\templates" />
     </key>
   </component>
@@ -690,7 +973,14 @@
       <option name="project" value="LOCAL" />
       <updated>1530930927190</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="added options to pycurl in requirements.txt">
+      <created>1530931562169</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1530931562169</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TodoView">
@@ -711,9 +1001,9 @@
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49626866" weight="0.33079433" />
       <window_info anchor="bottom" id="Python Console" order="6" sideWeight="0.55916846" weight="0.24265505" />
-      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.5410448" visible="true" weight="0.43634385" />
-      <window_info anchor="bottom" id="Terminal" order="5" sideWeight="0.45895523" side_tool="true" visible="true" weight="0.43634385" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.68725866" visible="true" weight="0.11727079" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.42377397" visible="true" weight="0.43634385" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="5" sideWeight="0.576226" side_tool="true" visible="true" weight="0.43634385" />
+      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.68725866" visible="true" weight="0.11727079" />
       <window_info anchor="bottom" id="Docker" order="2" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="1" weight="0.15458423" />
       <window_info anchor="right" id="SciView" order="0" weight="0.32995737" />
@@ -817,13 +1107,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SimpleShop/templates/top_navigation.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="47" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SimpleShop/templates/productDetail.html" />
     <entry file="file://$PROJECT_DIR$/SimpleShop/templates/header.html" />
     <entry file="file://$PROJECT_DIR$/SimpleShop/templates/productList.html">
@@ -1077,17 +1360,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SimpleShop/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1139">
-          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
-          <folding>
-            <element signature="e#0#45#0" expanded="true" />
-            <element signature="e#1586#2324#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SimpleShop/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1111,30 +1383,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/GenomicPrediction/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="194" column="8" selection-start-line="194" selection-start-column="8" selection-end-line="194" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/GenomicPrediction/celery.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.ebextensions/99_celery.config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -1145,7 +1393,49 @@
     <entry file="file://$PROJECT_DIR$/.ebextensions/02_python.config">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenomicPrediction/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="194" column="8" selection-start-line="194" selection-start-column="8" selection-end-line="194" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GenomicPrediction/celery.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="46" selection-start-line="13" selection-start-column="46" selection-end-line="13" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#56#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SimpleShop/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-731">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <element signature="e#1586#2324#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements_bak.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" selection-start-line="34" selection-end-line="34" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="35" column="62" selection-start-line="35" selection-start-column="62" selection-end-line="35" selection-end-column="62" />
         </state>
       </provider>
     </entry>
