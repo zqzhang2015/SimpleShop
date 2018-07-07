@@ -5,7 +5,7 @@ from celery import Celery
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'GenomicPrediction.settings')
 app = Celery('SimpleShop')
 app.config_from_object('django.conf:settings')
-# app.autodiscover_tasks(['SimpleShop'])
+app.autodiscover_tasks()
 
 
 # @app.task(bind=True)

@@ -7,7 +7,6 @@ from .forms import EmailForm, OrderForm, OrderLineInlineFormSet
 from django.template.loader import get_template
 from django.core.mail import send_mail
 from .tasks import send_email
-from django.http import HttpResponse
 
 # Create your views here.
 
