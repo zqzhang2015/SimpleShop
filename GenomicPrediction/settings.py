@@ -163,9 +163,9 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
+    os.path.join(BASE_DIR, "SimpleShop/static"),
 ]
-STATIC_ROOT = os.path.join(BASE_DIR, "www", "static")
+STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 
 # Redirect to home URL after login (Default redirects to /accounts/profile/)
