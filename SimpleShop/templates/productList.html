@@ -18,7 +18,7 @@
                 <th scope="col">Name</th>
                 <th scope="col">Price ($)</th>
                 <th scope="col">Stock</th>
-                <th scope="col" style="width: 250px">Action</th>
+                <th scope="col">Action</th>
             </tr>
             </thead>
             <tbody>
@@ -29,9 +29,9 @@
                     <td>{{ product.sale_price }}</td>
                     <td>{{ product.stock }}</td>
                     <td>
-                        <a class="btn btn-outline-info" href="{% url 'product-detail' product %}" role="button">Details</a>
-                        <a class="btn btn-outline-warning" href="{% url 'product-update' product %}" role="button">Edit</a>
-                        <a class="btn btn-outline-danger" href="{% url 'product-delete' product %}" role="button">Delete</a>
+                        <a class="link lead" href="{% url 'product-detail' product %}" role="button">Details</a>
+                        <a class="link lead" href="{% url 'product-update' product %}" role="button">Edit</a>
+                        <a class="link lead" href="{% url 'product-delete' product %}" role="button">Delete</a>
 
                     </td>
                 </tr>

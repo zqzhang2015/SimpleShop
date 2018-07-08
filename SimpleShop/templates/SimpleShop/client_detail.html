@@ -12,8 +12,8 @@
         </div>
         <hr>
         <div class="card-body text-center">
-            <a class="btn btn-outline-warning" href="{% url 'client-update' client.id %}" role="button">Edit</a>
-            <a class="btn btn-outline-danger" href="{% url 'client-delete' client.id %}" role="button">Delete</a>
+            <a class="link lead" href="{% url 'client-update' client.id %}" role="button">Edit</a>
+            <a class="link lead" href="{% url 'client-delete' client.id %}" role="button">Delete</a>
         </div>
     </div>
 <a href="{% url 'client-list' %}">Back to list</a>

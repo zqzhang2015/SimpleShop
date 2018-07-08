@@ -1,20 +1,60 @@
 {% extends 'base.html' %}
 
 {% block content %}
-<div id="order_create">
+
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">New Order</h1>
+            <p class="lead">Create a new purchase order.</p>
+        </div>
+    </div>
+
     <form action="." method="post">
         {% csrf_token %}
         <div>
-            {{ order_form.as_p }}
+            {% for field in order_form %}
+                <div class="form-row">
+                    <div class="col">
+                        <strong>{{ field.label }}</strong>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col">
+                        {{ field }}
+                    </div>
+                </div>
+            {% endfor %}
         </div>
+        <hr>
         <div>
-            {{ formset.as_ul }}
+        <table class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Delete</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                {{ formset.management_form }}
+                {% for form in formset %}
+                <tr>
+                    <td>{{ form.item }}</td>
+                    <td>{{ form.quantity }}</td>
+                    <td>{{ form.DELETE }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
         </div>
-            <input type="submit" value="submit" class="btn btn-success">
+
+
+
+        <div>
+            <input type="submit" value="Submit" class="btn btn-primary">
             <a href="{% url 'order-list' %}" class="btn btn-secondary">Back</a>
-
+        </div>
     </form>
-</div>
-
 {% endblock content %}
 

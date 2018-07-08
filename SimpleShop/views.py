@@ -107,7 +107,6 @@ def create_order(request):
 
     if request.method == "POST":
         order_form = OrderForm(request.POST)
-
         formset = OrderLineInlineFormSet(request.POST, request.FILES)
 
         if order_form.is_valid():

@@ -102,16 +102,17 @@ class OrderLine(models.Model):
         Order,
         on_delete=models.SET_NULL,
         null=True,
-        related_name='order_items',
+        related_name='orders',
     )
 
     item = models.ForeignKey(
         Product,
         on_delete=models.SET_NULL,
-        null=True
+        null=True,
+        related_name='item'
     )
 
-    quantity = models.IntegerField()
+    quantity = models.IntegerField(    )
 
     @property
     def subtotal(self):

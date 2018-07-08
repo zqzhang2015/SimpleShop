@@ -18,7 +18,7 @@
                 <th scope="col">Client</th>
                 <th scope="col">Status</th>
                 <th scope="col">Last Modified</th>
-                <th scope="col" style="width: 250px">Action</th>
+                <th scope="col">Action</th>
             </tr>
             </thead>
             <tbody>
@@ -29,10 +29,8 @@
                     <td>{{ order.order_status }}</td>
                     <td>{{ order.modify_date }}</td>
                     <td>
-{#                        <a class="btn btn-outline-info" href="{% url 'client-detail' client.id %}" role="button">Details</a>#}
-                        <a class="btn btn-outline-warning" href="{% url 'order-update' order.id %}" role="button">Edit</a>
-                        <a class="btn btn-outline-danger" href="{% url 'order-delete' order.id %}" role="button">Delete</a>
-
+                        <a class="link lead" href="{% url 'order-update' order.id %}" role="button">Edit</a>
+                        <a class="link lead" href="{% url 'order-delete' order.id %}" role="button">Delete</a>
                     </td>
                 </tr>
             {% endfor %}

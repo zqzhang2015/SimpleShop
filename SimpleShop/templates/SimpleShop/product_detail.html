@@ -14,8 +14,8 @@
             <li class="list-group-item"><small>Modified: {{ object.modify_date }}</small></li>
         </ul>
         <div class="card-body text-center">
-            <a class="btn btn-outline-warning" href="{% url 'product-update' product %}" role="button">Edit</a>
-            <a class="btn btn-outline-danger" href="{% url 'product-delete' product %}" role="button">Delete</a>
+            <a class="link lead" href="{% url 'product-update' product %}" role="button">Edit</a>
+            <a class="link lead" href="{% url 'product-delete' product %}" role="button">Delete</a>
         </div>
     </div>
 <a href="{% url 'product-list' %}">Back to list</a>
