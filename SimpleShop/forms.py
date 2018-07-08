@@ -9,12 +9,16 @@ class ClientModelForm(ModelForm):
         fields = '__all__'
 
 
-class EmailForm(forms.Form):
-    recipient_email = forms.EmailField(widget=forms.TextInput(attrs={'class': 'form-control'}))
-    subject = forms.CharField(widget=forms.TextInput(attrs={'class': 'form-control'}))
-
+class EmailForm(forms.ModelForm):
     class Meta:
         model = ContactMessage
+        widgets = {
+            'client': forms.TextInput(attrs={'class': 'form-control', 'readonly': True}),
+            'recipient_email': forms.TextInput(attrs={'class': 'form-control'}),
+            'subject': forms.TextInput(attrs={'class': 'form-control'}),
+            'body': forms.Textarea(attrs={'class': 'form-control'}),
+            'add_comments': forms.Textarea(attrs={'class': 'form-control', 'rows': '3', 'placeholder': 'Add any additional comments here!'})
+        }
         fields = '__all__'
 
 

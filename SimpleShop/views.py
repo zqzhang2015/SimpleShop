@@ -7,6 +7,7 @@ from .forms import EmailForm, OrderForm, OrderLineInlineFormSet
 from django.template.loader import get_template
 from django.core.mail import send_mail
 from .tasks import send_email
+from django.contrib import messages
 
 # Create your views here.
 
@@ -36,45 +37,56 @@ def contact_view(request):
                 'sender@example.com',
                 ['dangjoeltang@gmail.com']
             )
-
+            messages.success(request, 'Email has been submitted!')
             return redirect('contact')
     return render(request, 'contact.html', {'form': form_class})
 
 def preview_email(request, pk):
     client_query = Client.objects.get(id=pk)
     orders_query = client_query.order_set.all()
+
+    body_string = ""
+    for order in orders_query:
+        body_string += "PO Number: {}\n".format(order.po_number)
+        for line in order.order_items.all():
+            body_string += "- {} x {}\n".format(line.quantity, line.item)
+
+        body_string += "\n"
+
     form_class = EmailForm(initial={
+        'client': client_query.id,
         'recipient_email': client_query.email_address,
         'subject': "Report for " + client_query.first_name + " " + client_query.last_name,
+        'body': body_string,
     })
+
     if request.method == 'POST':
         form = EmailForm(request.POST)
-
+        form.client = pk
         if form.is_valid():
+            form.save()
             recipient_email = request.POST.get('recipient_email')
             subject = request.POST.get('subject')
+            body = request.POST.get('body')
+            additional = request.POST.get('add_comments')
 
-            template = get_template('report_template.txt')
+            template = get_template('email_report_template.txt')
             context = {
                 'recipient_email': recipient_email,
                 'subject': subject,
-                'client': client_query,
-                'orders': orders_query,
+                'body': body,
+                'additional': additional,
             }
             content = template.render(context)
 
             send_email.delay(recipient_email, content)
+            messages.success(request, 'Email has been submitted!')
+            return redirect('client-detail', pk=pk)
 
-            #
+        messages.error(request, 'Invalid form, please check again.', extra_tags='html_safe alert alert-danger')
+        return redirect('preview-email', pk=pk)
+        # ADD SOMETHING HERE TO SHOW FORM VALIDATION FAILED
 
-            #
-            # send_mail(
-            #     subject,
-            #     content,
-            #     'report@simpleshop.com',
-            #     [recipient_email, 'dangjoeltang@gmail.com']
-            # )
-            return redirect('index')
     context = {
         'client': client_query,
         'orders': orders_query,
@@ -105,6 +117,7 @@ def create_order(request):
             if formset.is_valid():
                 created_order.save()
                 formset.save()
+                messages.success(request, 'Order saved successfully!')
                 return redirect('order-list')
 
     else:
@@ -141,6 +154,8 @@ def edit_order(request, pk):
             if formset.is_valid():
                 created_order.save()
                 formset.save()
+                messages.success(request, 'Order saved successfully!')
+
                 return redirect('order-list')
 
     return render(request, "SimpleShop/order_update.html", {

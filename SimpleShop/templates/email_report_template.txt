@@ -1,0 +1,7 @@
+This is an auto-generated order report for {{ recipient_email }}
+
+Orders:
+{{ body }}
+
+Additional Comments:
+{{ additional }}

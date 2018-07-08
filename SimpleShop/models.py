@@ -123,16 +123,33 @@ class OrderLine(models.Model):
 
 class ContactMessage(models.Model):
 
-    client_email = models.ForeignKey(
+    client = models.ForeignKey(
         Client,
         on_delete=models.SET_NULL,
         null=True,
     )
 
-    @property
-    def client_name(self):
-        return '{} {}'.format(self.client_email.first_name, self.client_email.last_name)
+    recipient_email = models.EmailField(
+        'Recipient Email',
+    )
 
-    text_body = models.TextField(
+    subject = models.CharField(
+        'Subject',
+        max_length=200,
+    )
+
+    body = models.TextField(
+        'Email Body',
         max_length=1000,
     )
+
+    add_comments = models.TextField(
+        'Additional Comments',
+        max_length=1000,
+        blank=True,
+        null=True,
+    )
+
+    @property
+    def client_name(self):
+        return '{} {}'.format(self.client.first_name, self.client.last_name)
