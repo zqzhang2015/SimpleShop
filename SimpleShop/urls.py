@@ -18,7 +18,6 @@ urlpatterns += [
     path('clients/create/', views.ClientCreate.as_view(), name='client-create'),
     path('clients/<int:pk>/update/', views.ClientUpdate.as_view(), name='client-update'),
     path('clients/<int:pk>/delete/', views.ClientDelete.as_view(), name='client-delete'),
-    # path('clients/<int:pk>', views.ClientDetail.as_view(), name='client-detail'),
     path('clients/<int:pk>', views.client_orders_view, name='client-detail'),
     path('clients/<int:pk>/preview', views.preview_email, name='preview-email'),
 ]

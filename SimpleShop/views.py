@@ -3,9 +3,8 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.views.generic import DetailView
 from django.urls import reverse_lazy
 from .models import Client, Product, Order
-from .forms import EmailForm, OrderForm, OrderLineInlineFormSet
+from .forms import EmailForm, OrderForm, OrderLineInlineFormSet, ContactMe
 from django.template.loader import get_template
-from django.core.mail import send_mail
 from .tasks import send_email
 from django.contrib import messages
 
@@ -17,27 +16,32 @@ def index(request):
 
 
 def contact_view(request):
-    form_class = EmailForm
+    form_class = ContactMe
     if request.method == 'POST':
         form = form_class(data=request.POST)
 
         if form.is_valid():
-            contact_email = request.POST.get('client_email', '')
-            form_content = request.POST.get('text_body', '')
+            contact_email = request.POST.get('your_email')
+            contact_name = request.POST.get('your_name')
+            subject = request.POST.get('subject')
+            message = request.POST.get('message')
 
             template = get_template('contact_template.txt')
             context = {
                 'contact_email': contact_email,
-                'form_content': form_content,
+                'contact_name': contact_name,
+                'subject': subject,
+                'message': message,
             }
             content = template.render(context)
-            send_mail(
-                'Contact Form Submission',
+            send_email.delay(
+                'dangjoeltang@gmail.com',
                 content,
-                'sender@example.com',
-                ['dangjoeltang@gmail.com']
+                'Contact Me - ' + subject,
+                'SimpleShop: ' + contact_email
             )
-            messages.success(request, 'Email has been submitted!')
+
+            messages.success(request, 'Contact message has been submitted!')
             return redirect('contact')
     return render(request, 'contact.html', {'form': form_class})
 
@@ -182,10 +186,6 @@ def orders_view(request):
     return render(request, 'orderList.html', {'orders': orders})
 
 
-def client_detail_view(request):
-    return render(request, 'clientDetail.html')
-
-
 def error_404(request):
     context = {}
     return render(request, 'error_404.html', context)
@@ -202,12 +202,6 @@ class ClientUpdate(UpdateView):
     model = Client
     fields = '__all__'
     success_url = reverse_lazy('client-list')
-
-
-class ClientDelete(DeleteView):
-    model = Client
-    success_url = reverse_lazy('client-list')
-
 
 # PRODUCT CRUD
 class ProductCreate(CreateView):
@@ -228,6 +222,12 @@ class ProductUpdate(UpdateView):
     model = Product
     fields = '__all__'
     success_url = reverse_lazy('product-list')
+
+
+# DELETE views
+class ClientDelete(DeleteView):
+    model = Client
+    success_url = reverse_lazy('client-list')
 
 
 class ProductDelete(DeleteView):

@@ -1,5 +1,11 @@
 Email:
 {{ contact_email }}
 
+Name:
+{{ contact_name }}
+
+Subject:
+{{ subject }}
+
 Content:
-{{ form_content|safe|striptags }}
+{{ form_message|safe|striptags }}

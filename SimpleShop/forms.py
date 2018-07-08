@@ -8,6 +8,44 @@ class ClientModelForm(ModelForm):
         model = Client
         fields = '__all__'
 
+class ContactMe(forms.Form):
+    your_email = forms.EmailField(
+        label='Your Email',
+        widget=forms.TextInput(
+            attrs={
+                'placeholder': 'Email Address',
+                'class': 'form-control',
+            }
+        )
+    )
+    your_name = forms.CharField(
+        label='Your Name',
+        widget=forms.TextInput(
+            attrs={
+                'placeholder': 'Full Name',
+                'class': 'form-control',
+            }
+        )
+    )
+    subject = forms.CharField(
+        label='Subject',
+        widget=forms.TextInput(
+            attrs={
+                'placeholder': 'Subject Line',
+                'class': 'form-control',
+            }
+        )
+    )
+    message = forms.CharField(
+        label='Message',
+        widget=forms.Textarea(
+            attrs={
+                'placeholder': 'Your message goes here!',
+                'class': 'form-control',
+            }
+        )
+    )
+
 
 class EmailForm(forms.ModelForm):
     class Meta:
@@ -45,15 +83,6 @@ class OrderForm(forms.ModelForm):
             'order_status': forms.Select(attrs={'class': 'form-control'}),
         }
         fields = '__all__'
-
-
-# class CustomOrderLineInlineFormset(BaseInlineFormSet):
-#     def __init__(self, *args, **kwargs):
-#         super(CustomOrderLineInlineFormset, self).__init__(*args, **kwargs)
-#
-#         for form in self.forms:
-#             for field in form.fields:
-#                 form.fields[field].attrs.update({'class': 'form-control'})
 
 
 OrderLineInlineFormSet = inlineformset_factory(

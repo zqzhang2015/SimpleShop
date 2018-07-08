@@ -6,11 +6,12 @@
         <div class="jumbotron jumbotron-fluid">
             <div class="container">
                 <h1 class="display-4">Orders</h1>
-                <p class="lead">View. Create. Edit. Delete.</p>
+                <p class="lead lead-2">View. Create. Edit. Delete.</p>
             </div>
         </div>
 
         <a class="link lead" href="{% url 'order-create'%}" role="button">[+] Add New Order</a>
+    <div class="scroll-table">
         <table class="table table-striped">
             <thead class="thead-dark">
             <tr>
@@ -36,6 +37,9 @@
             {% endfor %}
             </tbody>
         </table>
-        <a class="link lead" href="{% url 'order-create'%}" role="button">[+] Add New Order</a>
+        </div>
+            <a class="link lead" href="{% url 'order-create'%}" role="button">[+] Add New Order</a>
+
+
 
 {% endblock content %}

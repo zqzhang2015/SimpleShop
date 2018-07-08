@@ -1,4 +1,5 @@
 from django.db import models
+from django.core.validators import MinValueValidator
 
 
 class Product(models.Model):
@@ -16,9 +17,13 @@ class Product(models.Model):
     sale_price = models.DecimalField(
         max_digits=10,
         decimal_places=2,
+        validators=[MinValueValidator(0)]
     )
 
-    stock = models.IntegerField()
+    stock = models.IntegerField(
+        validators=[MinValueValidator(0)]
+
+    )
 
     create_date = models.DateField(
         auto_now_add=True,
@@ -112,7 +117,10 @@ class OrderLine(models.Model):
         related_name='item'
     )
 
-    quantity = models.IntegerField(    )
+    quantity = models.IntegerField(
+        validators=[MinValueValidator(0)]
+
+    )
 
     @property
     def subtotal(self):
