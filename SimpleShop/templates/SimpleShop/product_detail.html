@@ -2,21 +2,32 @@
 
 {% block content %}
 
-    <div class="card" style="width: 20rem;">
-        <div class="card-body text-center">
-            <h2 class="card-title display-4">{{ object.product_id }}</h2>
-            <h5 class="lead">{{ object.name }}</h5>
+    <div class="container">
+        <div class="row justify-content-center">
+
+
+        <div class="card" style="width: 20rem;">
+            <div class="card-body text-center">
+                <h2 class="card-title display-4">{{ object.product_id }}</h2>
+                <h5 class="lead">{{ object.name }}</h5>
+            </div>
+            <ul class="list-group list-group-flush text-right">
+                <li class="list-group-item"><strong>Stock: {{ object.stock }}</strong></li>
+                <li class="list-group-item"><strong>Price: ${{ object.sale_price }}</strong></li>
+                <li class="list-group-item"><small>Created: {{ object.create_date }}</small></li>
+                <li class="list-group-item"><small>Modified: {{ object.modify_date }}</small></li>
+            </ul>
+            <div class="card-body text-center">
+                <a class="link lead" href="{% url 'product-update' product %}" role="button">Edit</a>
+                <a class="link lead" href="{% url 'product-delete' product %}" role="button">Delete</a>
+            </div>
         </div>
-        <ul class="list-group list-group-flush text-right">
-            <li class="list-group-item"><strong>Stock: {{ object.stock }}</strong></li>
-            <li class="list-group-item"><strong>Price: ${{ object.sale_price }}</strong></li>
-            <li class="list-group-item"><small>Created: {{ object.create_date }}</small></li>
-            <li class="list-group-item"><small>Modified: {{ object.modify_date }}</small></li>
-        </ul>
-        <div class="card-body text-center">
-            <a class="link lead" href="{% url 'product-update' product %}" role="button">Edit</a>
-            <a class="link lead" href="{% url 'product-delete' product %}" role="button">Delete</a>
         </div>
+        <div class="row justify-content-center">
+            <a href="{% url 'product-list' %}">Back to list</a>
+        </div>
+
     </div>
-<a href="{% url 'product-list' %}">Back to list</a>
+
+
 {% endblock %}

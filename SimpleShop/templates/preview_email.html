@@ -12,11 +12,25 @@
     <div class="container">
         <form action="{% url 'preview-email' client.id %}" method="post">
             {% csrf_token %}
+
+            <div class="row justify-content-right">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-8 form-error">
+                    {{ form.client.errors.as_text }}
+                </div>
+            </div>
             <div class="form-group row">
                 <div class="col-sm-1"></div>
                 <label for="client" class="col-sm-2 col-form-label">Client ID</label>
                 <div class="col-sm-8">
                     {{ form.client }}
+                </div>
+            </div>
+
+            <div class="row justify-content-right">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-8 form-error">
+                    {{ form.recipient_email.errors.as_text }}
                 </div>
             </div>
             <div class="form-group row">
@@ -27,6 +41,12 @@
                 </div>
             </div>
 
+            <div class="row justify-content-right">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-8 form-error">
+                    {{ form.subject.errors.as_text }}
+                </div>
+            </div>
             <div class="form-group row">
                 <div class="col-sm-1"></div>
                 <label for="subject" class="col-sm-2 col-form-label">Subject</label>
@@ -35,6 +55,12 @@
                 </div>
             </div>
 
+            <div class="row justify-content-right">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-8 form-error">
+                    {{ form.body.errors.as_text }}
+                </div>
+            </div>
             <div class="form-group row">
                 <div class="col-sm-1"></div>
                 <label class="col-sm-2 col-form-label">Order Report</label>
@@ -45,6 +71,12 @@
                 </div>
             </div>
 
+            <div class="row justify-content-right">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-8 form-error">
+                    {{ form.add_comments.errors.as_text }}
+                </div>
+            </div>
             <div class="form-group row">
                 <div class="col-sm-1"></div>
                 <label for="comments" class="col-sm-2 col-form-label">Additional Comments</label>

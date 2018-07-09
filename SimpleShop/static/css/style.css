@@ -26,6 +26,7 @@ body {
     position: fixed;
     width: 100%;
     background-color: #E9ECEF;
+    z-index: 9;
 }
 
 
@@ -85,4 +86,27 @@ body {
     font-size: 1.5rem;
     font-weight: 300;
     line-height: 1.2;
+}
+
+.row-title {
+    background-color: #212529;
+    color: #ffffff;
+    vertical-align: baseline;
+}
+
+.row-head {
+    background-color: #e3e3e3;
+    font-weight: bold;
+}
+
+.row-body {
+
+}
+
+.container-orders {
+    padding-bottom: 40px;
+}
+
+.form-error {
+    color: #CC3434;
 }

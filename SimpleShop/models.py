@@ -65,7 +65,8 @@ class Order(models.Model):
     client = models.ForeignKey(
         Client,
         on_delete=models.SET_NULL,
-        null=True
+        null=True,
+        related_name='orders'
     )
 
     po_number = models.CharField(
@@ -107,14 +108,14 @@ class OrderLine(models.Model):
         Order,
         on_delete=models.SET_NULL,
         null=True,
-        related_name='orders',
+        related_name='orderlines',
     )
 
     item = models.ForeignKey(
         Product,
         on_delete=models.SET_NULL,
         null=True,
-        related_name='item'
+        related_name='items',
     )
 
     quantity = models.IntegerField(

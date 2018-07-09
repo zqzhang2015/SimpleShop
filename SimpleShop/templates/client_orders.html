@@ -13,23 +13,32 @@
     </div>
 
     {% for order in orders %}
-        <p class="link lead">PO Number: {{ order.po_number }}</p>
-        <table class="table table-striped table-sm">
-            <thead class="thead-dark">
-            <tr>
-                <th scope="col">Item</th>
-                <th scope="col">Quantity</th>
-            </tr>
-            </thead>
-            {% for orderline in order.order_items.all %}
-            <tr>
-                <td>{{ orderline.item }}</td>
-                <td>{{ orderline.quantity }}</td>
-            </tr>
-            {% endfor %}
-        </table>
+    <div class="container container-orders">
+        <div class="row justify-content-center">
+            <div class="col-11 row-title">
+                PO Number: {{ order.po_number }}
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-1 row-head">#</div>
+            <div class="col-4 row-head">Product ID</div>
+            <div class="col-3 row-head">Quantity</div>
+            <div class="col-3 row-head">Subtotal</div>
+        </div>
+        {% for orderline in order.orderlines.all %}
+        <div class="row row-body justify-content-center">
+            <div class="col-1">{{ forloop.counter }}</div>
+            <div class="col-4">{{ orderline.item }}</div>
+            <div class="col-3">{{ orderline.quantity }}</div>
+            <div class="col-3">{{ orderline.subtotal }}</div>
+        </div>
+        {% endfor %}
 
+
+    </div>
     {% endfor %}
+
+
 
 <a href="{% url 'client-list' %}">Back to list</a>
 {% endblock %}

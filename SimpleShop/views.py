@@ -2,10 +2,9 @@ from django.shortcuts import render, redirect, render_to_response
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.views.generic import DetailView
 from django.urls import reverse_lazy
-from .models import Client, Product, Order
+from .models import Client, Product, Order, OrderLine
 from .forms import EmailForm, OrderForm, OrderLineInlineFormSet, ContactMe, ProductModelForm, ClientModelForm
 from django.template.loader import get_template
-from django.template import RequestContext
 from .tasks import send_email
 from django.contrib import messages
 
@@ -44,16 +43,17 @@ def contact_view(request):
 
             messages.success(request, 'Contact message has been submitted!')
             return redirect('contact')
+        messages.error(request, 'Invalid form, please check again.', extra_tags='html_safe alert alert-danger')
     return render(request, 'contact.html', {'form': form_class})
 
 def preview_email(request, pk):
     client_query = Client.objects.get(id=pk)
-    orders_query = client_query.order_set.all()
+    orders = Order.objects.prefetch_related('orderlines').filter(client=pk)
 
     body_string = ""
-    for order in orders_query:
+    for order in orders:
         body_string += "PO Number: {}\n".format(order.po_number)
-        for line in order.order_items.all():
+        for line in order.orderlines.all():
             body_string += "- {} x {}\n".format(line.quantity, line.item)
 
         body_string += "\n"
@@ -94,17 +94,21 @@ def preview_email(request, pk):
 
     context = {
         'client': client_query,
-        'orders': orders_query,
+        'orders': orders,
         'form': form_class,
     }
     return render(request, 'preview_email.html', context)
 
-
+# FIGURE OUT HOW TO DISPLAY ALL THE ORDERS AND ORDERINES IN THE TEMPLATE
 def client_orders_view(request, pk):
     client = Client.objects.get(id=pk)
-    orders = client.order_set.all()
-    return render(request, 'client_orders.html', {'client': client, 'orders': orders})
+    orders = Order.objects.prefetch_related('orderlines').filter(client=pk)
 
+    context = {
+        'client': client,
+        'orders': orders,
+    }
+    return render(request, 'client_orders.html', context)
 
 def create_order(request):
 
@@ -132,7 +136,6 @@ def create_order(request):
         "order_form": order_form,
         "formset": formset,
     })
-
 
 def edit_order(request, pk):
     if id:
@@ -168,11 +171,9 @@ def edit_order(request, pk):
         "formset": formset,
     })
 
-
 def client_list_view(request):
     clients = Client.objects.all()
     return render(request, 'clientList.html', {'clients': clients})
-
 
 def product_list_view(request):
     product_query = Product.objects.all()
@@ -181,16 +182,13 @@ def product_list_view(request):
     }
     return render(request, 'productList.html', context)
 
-
 def orders_view(request):
     orders = Order.objects.all()
     return render(request, 'orderList.html', {'orders': orders})
 
-
 def error_404(request, exception):
     data = {}
     return render(request, 'error_404.html', data)
-
 
 def client_create(request):
     client = Client()
@@ -210,7 +208,6 @@ def client_create(request):
         'form': client_form
     }
     return render(request, 'SimpleShop/client_create.html', context)
-
 
 def client_update(request, pk):
     client = Client.objects.get(id=pk)

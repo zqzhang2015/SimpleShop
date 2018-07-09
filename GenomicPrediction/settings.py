@@ -22,12 +22,12 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # SECURITY WARNING: keep the secret key used in production secret!
 
-# SECRET_KEY = os.environ['SECRET_KEY']
-SECRET_KEY = 'y1&h&rarxr(w&+7rdq5^3uvwru_-4$7g4tqfrefkp218(jbu(8'
+SECRET_KEY = os.environ['SECRET_KEY']
+# SECRET_KEY = 'y1&h&rarxr(w&+7rdq5^3uvwru_-4$7g4tqfrefkp218(jbu(8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = False
-DEBUG = True
+DEBUG = False
+# DEBUG = True
 # TEMPLATE_DEBUG = DEBUG
 
 ALLOWED_HOSTS = ['*']
@@ -96,31 +96,31 @@ if 'RDS_DB_NAME' in os.environ:
         }
     }
 else:
-    # DATABASES = {
-    #     'default': {
-    #         'ENGINE': 'django.db.backends.mysql',
-    #         'OPTIONS': {
-    #             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
-    #         },
-    #         'NAME': os.environ['DATABASE_NAME'],
-    #         'HOST': os.environ['DATABASE_HOST'],
-    #         'PORT': os.environ['DATABASE_PORT'],
-    #         'USER': os.environ['DATABASE_USER'],
-    #         'PASSWORD': os.environ['DATABASE_PASSWORD'],
-    #     }}
-
     DATABASES = {
         'default': {
             'ENGINE': 'django.db.backends.mysql',
             'OPTIONS': {
                 'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
             },
-            'NAME': 'simpleshop',
-            'HOST': '127.0.0.1',
-            'PORT': '3306',
-            'USER': 'root',
-            'PASSWORD': 'visasept17',
+            'NAME': os.environ['DATABASE_NAME'],
+            'HOST': os.environ['DATABASE_HOST'],
+            'PORT': os.environ['DATABASE_PORT'],
+            'USER': os.environ['DATABASE_USER'],
+            'PASSWORD': os.environ['DATABASE_PASSWORD'],
         }}
+
+    # DATABASES = {
+    #     'default': {
+    #         'ENGINE': 'django.db.backends.mysql',
+    #         'OPTIONS': {
+    #             'init_command': "SET sql_mode='STRICT_TRANS_TABLES'",
+    #         },
+    #         'NAME': 'simpleshop',
+    #         'HOST': '127.0.0.1',
+    #         'PORT': '3306',
+    #         'USER': 'root',
+    #         'PASSWORD': 'visasept17',
+    #     }}
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
@@ -181,21 +181,21 @@ LOGOUT_REDIRECT_URL = '/'
 
 
 EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_HOST_USER = 'qiaoweitang'
-# EMAIL_HOST_USER = os.environ['EMAIL_HOST_USER']
+# EMAIL_HOST_USER = 'qiaoweitang'
+EMAIL_HOST_USER = os.environ['EMAIL_HOST_USER']
 
-EMAIL_HOST_PASSWORD = 'visasept17'
-# EMAIL_HOST_PASSWORD = os.environ['EMAIL_HOST_PASSWORD']
+# EMAIL_HOST_PASSWORD = 'visasept17'
+EMAIL_HOST_PASSWORD = os.environ['EMAIL_HOST_PASSWORD']
 
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
 
 # AWS Credentials
-# AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
-AWS_ACCESS_KEY_ID = 'AKIAJTTA267CONB3FMNQ'
-# AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
+# AWS_ACCESS_KEY_ID = 'AKIAJTTA267CONB3FMNQ'
+AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
+# AWS_SECRET_ACCESS_KEY = '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'
 # Celery
 
 BROKER_URL = "sqs://%s:%s@" % (AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY)
