@@ -3,7 +3,7 @@ from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.views.generic import DetailView
 from django.urls import reverse_lazy
 from .models import Client, Product, Order
-from .forms import EmailForm, OrderForm, OrderLineInlineFormSet, ContactMe
+from .forms import EmailForm, OrderForm, OrderLineInlineFormSet, ContactMe, ProductModelForm, ClientModelForm
 from django.template.loader import get_template
 from django.template import RequestContext
 from .tasks import send_email
@@ -192,6 +192,91 @@ def error_404(request, exception):
     return render(request, 'error_404.html', data)
 
 
+def client_create(request):
+    client = Client()
+
+    client_form = ClientModelForm(instance=client)
+
+    if request.method == "POST":
+        client_form = ClientModelForm(request.POST)
+
+        if client_form.is_valid():
+            client_form.save()
+            messages.success(request, 'Client has been created!')
+            return redirect('client-list')
+        messages.error(request, 'Invalid form, please check again.', extra_tags='html_safe alert alert-danger')
+
+    context = {
+        'form': client_form
+    }
+    return render(request, 'SimpleShop/client_create.html', context)
+
+
+def client_update(request, pk):
+    client = Client.objects.get(id=pk)
+
+    client_form = ClientModelForm(instance=client)
+
+    if request.method == "POST":
+        client_form = ClientModelForm(request.POST, instance=client)
+
+        if client_form.is_valid():
+            client_form.save()
+            messages.success(request, 'Client has been updated!')
+            return redirect('client-list')
+        messages.error(request, 'Invalid form, please check again.', extra_tags='html_safe alert alert-danger')
+
+    context = {
+        'form': client_form,
+        'client': client,
+    }
+    return render(request, 'SimpleShop/client_update.html', context)
+
+def product_create(request, pk=None):
+
+    if pk:
+        product = Product.objects.get(product_id=pk)
+    else:
+        product =Product()
+
+    product_form = ProductModelForm(instance=product)
+
+    if request.method == "POST":
+        product_form = ProductModelForm(request.POST)
+
+        if product_form.is_valid():
+            product_form.save()
+            messages.success(request, 'Product has been created!')
+            return redirect('product-list')
+
+    context = {
+        'form': product_form
+    }
+    return render(request, 'SimpleShop/product_form.html', context)
+
+def product_update(request, pk):
+
+    product = Product.objects.get(product_id=pk)
+
+    product_form = ProductModelForm(instance=product)
+
+    if request.method == "POST":
+        product_form = ProductModelForm(request.POST, instance=product)
+
+        if product_form.is_valid():
+            product_form.save()
+            messages.success(request, 'Product has been updated!')
+            return redirect('product-list')
+
+        messages.error(request, 'Invalid form, please check again.', extra_tags='html_safe alert alert-danger')
+
+    context = {
+        'form': product_form,
+        'product': product,
+    }
+    return render(request, 'SimpleShop/product_update_form.html', context)
+
+
 # CLIENT CRUD
 class ClientCreate(CreateView):
     model = Client
@@ -204,25 +289,14 @@ class ClientUpdate(UpdateView):
     fields = '__all__'
     success_url = reverse_lazy('client-list')
 
+
 # PRODUCT CRUD
-class ProductCreate(CreateView):
-    model = Product
-    fields = '__all__'
-    success_url = reverse_lazy('product-list')
-
-
 class ProductDetail(DetailView):
     model = Product
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         return context
-
-
-class ProductUpdate(UpdateView):
-    model = Product
-    fields = '__all__'
-    success_url = reverse_lazy('product-list')
 
 
 # DELETE views

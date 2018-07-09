@@ -3,14 +3,12 @@
 {% block title %} Contact {%  endblock title %}
 
 {% block content %}
-    <h1>New Email</h1>
-    <p>
-        Need to modify this page to allow for user feedback to send emails directly to the site admin.
-    </p>
+    <h1 class="display-4">Contact Me!</h1>
+    <p class="lead lead-2">Please feel free to send me any complaints and/or memes.</p>
     <form method="POST" class="post-form">
         {% csrf_token %}
         {{ form.as_p}}
-        <button type="submit" class="save btn btn-default">Submit</button>
+        <button type="submit" class="save btn btn-primary">Submit</button>
         <a href="{% url 'index' %}" class="btn btn-secondary">Back</a>
     </form>
 

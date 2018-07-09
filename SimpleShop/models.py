@@ -26,7 +26,7 @@ class Product(models.Model):
     )
 
     create_date = models.DateField(
-        auto_now_add=True,
+        auto_now=True,
         blank=True,
         null=True,
     )

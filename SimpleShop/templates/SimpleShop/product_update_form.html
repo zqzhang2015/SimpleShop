@@ -4,12 +4,12 @@
 
     <div class="jumbotron jumbotron-fluid">
         <div class="container">
-            <h1 class="display-4">Create new product</h1>
+            <h1 class="display-4">Edit product</h1>
         </div>
     </div>
 
     <div class="container">
-        <form action="{% url 'product-create' %}" method="post">
+        <form action="{% url 'product-update' product.product_id %}" method="post">
             {% csrf_token %}
             <div class="form-group row">
                 <div class="col-sm-1"></div>

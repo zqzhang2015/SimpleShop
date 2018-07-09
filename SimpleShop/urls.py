@@ -13,18 +13,17 @@ urlpatterns = [
 ]
 
 
-
 urlpatterns += [
-    path('clients/create/', views.ClientCreate.as_view(), name='client-create'),
-    path('clients/<int:pk>/update/', views.ClientUpdate.as_view(), name='client-update'),
+    path('clients/create/', views.client_create, name='client-create'),
+    path('clients/<int:pk>/update/', views.client_update, name='client-update'),
     path('clients/<int:pk>/delete/', views.ClientDelete.as_view(), name='client-delete'),
     path('clients/<int:pk>', views.client_orders_view, name='client-detail'),
     path('clients/<int:pk>/preview', views.preview_email, name='preview-email'),
 ]
 
 urlpatterns += [
-    path('products/create/', views.ProductCreate.as_view(), name='product-create'),
-    path('products/<slug:pk>/update/', views.ProductUpdate.as_view(), name='product-update'),
+    path('products/create/', views.product_create, name='product-create'),
+    path('products/<slug:pk>/update/', views.product_update, name='product-update'),
     path('products/<slug:pk>/delete/', views.ProductDelete.as_view(), name='product-delete'),
     path('products/<slug:pk>', views.ProductDetail.as_view(), name='product-detail'),
 ]

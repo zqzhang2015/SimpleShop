@@ -3,11 +3,6 @@ from django.forms import ModelForm, inlineformset_factory, BaseInlineFormSet
 from .models import Client, ContactMessage, Order, OrderLine, Product
 
 
-class ClientModelForm(ModelForm):
-    class Meta:
-        model = Client
-        fields = '__all__'
-
 class ContactMe(forms.Form):
     your_email = forms.EmailField(
         label='Your Email',
@@ -59,6 +54,31 @@ class EmailForm(forms.ModelForm):
         }
         fields = '__all__'
 
+
+class ProductModelForm(forms.ModelForm):
+    class Meta:
+        model = Product
+        exclude = [
+            'create_date',
+            'modify_date',
+        ]
+        widgets = {
+            'product_id': forms.TextInput(attrs={'class': 'form-control'}),
+            'name': forms.TextInput(attrs={'class': 'form-control'}),
+            'sale_price': forms.NumberInput(attrs={'class': 'form-control'}),
+            'stock': forms.NumberInput(attrs={'class': 'form-control'}),
+        }
+
+
+class ClientModelForm(forms.ModelForm):
+    class Meta:
+        model = Client
+        fields = '__all__'
+        widgets = {
+            'first_name': forms.TextInput(attrs={'class': 'form-control'}),
+            'last_name': forms.TextInput(attrs={'class': 'form-control'}),
+            'email_address': forms.TextInput(attrs={'class': 'form-control'}),
+        }
 
 class OrderLineForm(forms.ModelForm):
 
