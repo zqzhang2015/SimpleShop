@@ -3,5 +3,11 @@
 {% block title %} 404 {% endblock title %}
 
 {% block content %}
-{{ request.get_full_path }}
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-4">404 Page not found</h1>
+            <p class="lead lead-2">View. Create. Edit. Delete.</p>
+        </div>
+    </div>
+    {{ request.get_full_path }}
 {% endblock content %}

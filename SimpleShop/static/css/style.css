@@ -76,3 +76,7 @@ body {
 #brand {
     color: #013B73;
 }
+
+.url-404 {
+    font-family: 'Inconsolata', monospace;
+}

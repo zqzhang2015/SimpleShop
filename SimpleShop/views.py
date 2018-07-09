@@ -1,10 +1,11 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, render_to_response
 from django.views.generic.edit import CreateView, UpdateView, DeleteView
 from django.views.generic import DetailView
 from django.urls import reverse_lazy
 from .models import Client, Product, Order
 from .forms import EmailForm, OrderForm, OrderLineInlineFormSet, ContactMe
 from django.template.loader import get_template
+from django.template import RequestContext
 from .tasks import send_email
 from django.contrib import messages
 
@@ -186,9 +187,9 @@ def orders_view(request):
     return render(request, 'orderList.html', {'orders': orders})
 
 
-def error_404(request):
-    context = {}
-    return render(request, 'error_404.html', context)
+def error_404(request, exception):
+    data = {}
+    return render(request, 'error_404.html', data)
 
 
 # CLIENT CRUD

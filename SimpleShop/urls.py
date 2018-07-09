@@ -12,7 +12,7 @@ urlpatterns = [
     path('', include('django.contrib.auth.urls')),
 ]
 
-handler404 = 'SimpleShop.views.error_404'
+
 
 urlpatterns += [
     path('clients/create/', views.ClientCreate.as_view(), name='client-create'),
@@ -34,3 +34,6 @@ urlpatterns += [
     path('orders/<int:pk>/update/', views.edit_order, name='order-update'),
     path('orders/<int:pk>/delete/', views.OrderDelete.as_view(), name='order-delete'),
 ]
+
+
+handler404 = 'SimpleShop.views.error_404'
