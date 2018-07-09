@@ -21,3 +21,4 @@ Future Improvements
   - Split single "monolithic" app into multple smaller apps for improved modularity and maintainability.
   - Perhaps add a RESTful API, which would allow for full utilization of a Front-end JS framework.
   - Create tests for further development
+  - Dynamic forms for adding items to an order. Add Line button, instead of generating 5 extra lines initially.
