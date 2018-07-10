@@ -1,4 +1,4 @@
-# GenomicPredictionCodingAssessment
+# SimpleShop
 Simple webserver running django 2.0 and MySQL for coding assessment.
 Asynchronous Email service using Amazon SQS, Sendgrid, and Celery 3.1.25
 Implemented middleware to force user login to view any of the pages.
